@@ -1,0 +1,287 @@
+.letra3d {
+  color: #fff;
+
+  text-shadow:
+    1px -1px 0 #2f5d87,
+    2px -2px 0 #2e5a83,
+    3px -3px 0 #2d5880,
+    4px -4px 0 #2b557c,
+    5px -5px 0 #2a5378,
+    6px -6px 0 #295074,
+    7px -7px 0 #274d71,
+    8px -8px 0 #264b6d,
+    9px -9px 0 #254869,
+    10px -10px 0 #234665,
+    11px -11px 0 #224361,
+    12px -12px 0 #21405e,
+    13px -13px 12px rgba(0, 0, 0, 0.55),
+    13px -13px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+.bg-capa {
+  background-image:
+    url("/assets/img/jms1.jpg");
+  background-size: 100%;
+  border: solid 2px;
+  text-shadow: white 0px 0px 2px;
+}
+
+.bg-letra {
+ position: absolute; 
+ top: 30%;
+ padding-left: 5%;
+}
+
+.letraTamanho {
+ font-size: 70px;
+}
+
+
+.cor_padaro {
+  color: #f1af01;
+}
+
+.mm {
+  color: #f7a8a9;
+}
+
+.ii {
+  color: #1f1d1d;
+}
+
+.gg {
+  color: #f48221;
+}
+
+.uu {
+  color: #465e88;
+}
+
+.nn {
+  color: #aa997b;
+}
+
+.hh {
+  color: #93d5f5;
+}
+
+.oo {
+  color: #e92026;
+}
+
+.ss {
+  color: #1f1d1d;
+}
+
+.dd {
+  color: #0a91ce;
+}
+
+.ee {
+  color: #faec02;
+}
+
+.valor_icon {
+  color: #17a2b8;
+}
+
+.features{
+  text-align: center;
+}
+
+.noneImg1 {
+  width: 100%; 
+}
+
+.noneImg2 {
+  width: 100%;
+}
+ 
+.sidebar {
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+  width: 0px;
+  overflow: hidden;
+  display: inline-block;
+  position: fixed !important;
+  top: 0px;
+  left: 0;
+  z-index: 1030 !important;
+  border-radius: 0 20px 20px 0;
+  box-shadow: 6px 4px 30px 0px rgb(0, 0, 0, 0.25);
+  height: 100%;
+
+}
+
+ 
+ .galeria{
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  outline: 3px solid black; 
+ }
+ 
+ .galeria .foto{
+  width: 500%;
+  animation: animacao 25s infinite ease-out;
+ }
+
+ .galeria .foto img{
+  width: 19.9%;
+ }
+
+ @keyframes animacao{
+  0%{ margin-left: 0 }
+  20%{ margin-left: 0 }
+  25%{ margin-left: -100% }
+  45%{ margin-left: -100% }
+  50%{ margin-left: -200% }
+  70%{ margin-left: -200% }
+  75%{ margin-left: -300% }
+  95%{ margin-left: -300% }
+  100%{ margin-left: 0% }
+ }
+ 
+@media (max-width: 1200px) {
+  .noneImg {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 260px) and (max-width: 1201px) {
+
+@keyframes slide{
+  0%{left: 0px}
+  20%{left: 0px}
+  30%{left: -400px}
+  50%{left: -400px}
+  60%{left: -800px}
+  90%{left: -800px}
+  100%{left: 0px}
+ }
+  .sidebar {
+      -moz-transition: all .5s;
+      -o-transition: all .5s;
+      -webkit-transition: all .5s;
+      transition: all .5s;
+      font-family: "Poppins", sans-serif;
+      background: rgb(255, 255, 255);
+      overflow: hidden;
+      display: inline-block;
+      position: fixed !important;
+      top: 0px;
+      left: 0;
+      z-index: 1030 !important;
+      border-radius: 0 20px 20px 0;
+      box-shadow: 6px 4px 30px 0px rgb(0, 0, 0, 0.25);
+      height: 100%;
+      width: 100%;
+
+  }
+
+  .botaoEcoder {
+    position: fixed;
+    padding: 1rem;
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 2rem;
+    color: rgb(11, 10, 10);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    float: left;
+    left: 0rem;
+
+    z-index: 1034 !important;
+}
+
+
+  .img_center {
+    text-align: center;
+    padding: 16px 1px 0px 0px;
+}
+
+.letraTamanho {
+  font-size: 20px;
+ }
+
+ .subsub {
+  display: none;
+ }
+ 
+
+}
+
+ 
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  height: 360px;
+  max-height: 100vh;
+}
+
+.number-slide {
+  width: 100%;
+  height: 100%;
+}
+ 
+.number-slide2 {
+  background-image:
+  url("/assets/img/jms2.jpg");
+background-size: 100%;
+border: solid 2px;
+text-shadow: white 0px 0px 2px;
+}
+
+.number-slide3 {
+  background-image:
+  url("/assets/img/jms5.jpg");
+background-size: 100%;
+border: solid 2px;
+text-shadow: white 0px 0px 2px;
+}
+
+.number-slide4 {
+  background-image:
+  url("/assets/img/jms4.jpg");
+background-size: 100%;
+border: solid 2px;
+text-shadow: white 0px 0px 2px;
+}
+
+.number-slide5 {
+  background: rgb(255, 64, 156);
+  background: linear-gradient(
+    128deg,
+    rgba(255, 64, 156, 1) 0%,
+    rgba(255, 63, 63, 1) 100%
+  );
+}
+.number-slide6 {
+  background: rgb(64, 76, 255);
+  background: linear-gradient(
+    128deg,
+    rgba(64, 76, 255, 1) 0%,
+    rgba(174, 63, 255, 1) 100%
+  );
+}
