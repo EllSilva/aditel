@@ -15,7 +15,10 @@ Vue.component('c-oferecer', c_oferecer)
 
 import c_sobre from './components/c_sobre.js'
 Vue.component('c-sobre', c_sobre)
-  
+
+import c_outracat from './components/c_outracat.js'
+Vue.component('c-outracategoria', c_outracat)
+
 import page_home from './view/home/home.js'
 Vue.component('p-home', page_home)
 

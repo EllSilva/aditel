@@ -12,5 +12,5 @@ export default {
 
     },
 
-    template: await get_template('./assets/js/components/c_equipe')
+    template: await get_template('./assets/js/components/c_outracat')
 }
