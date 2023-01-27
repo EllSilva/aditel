@@ -3,8 +3,11 @@ import get_template from './get_template.js'
 export default {
     data: function () {
         return { 
+            isActive: false,
+            dropActive1: false,
+            dropActive2: false,
+
             showEsconder: false,
-            showMostrar: true,
 
             type: false,
             showTrue: true,
@@ -25,14 +28,17 @@ export default {
     methods: {
 
         
-        mostrarMenu() {
-            this.showTrue = false
-            this.ativo = false
-
-            this.showEsconder = true
-            this.showMostrar = false
-
+        mostrarMenu(type) { 
+         this.isActive = (this.isActive == type) ? true : type ; 
         },
+
+        mostrarDop1(type) { 
+            this.dropActive1 = (this.dropActive1 == type) ? true : type ; 
+           },
+           mostrarDop2(type) { 
+            this.dropActive2 = (this.dropActive2 == type) ? true : type ; 
+           },
+
 
         esconderMenu() {
             this.showTrue = true

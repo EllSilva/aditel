@@ -1,6 +1,6 @@
 <div class="container-fluid bg-light position-relative shadow">
-    <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
- 
+    <nav class="">
+		navbar-toggle-btn
         	<!-- HEADER -->
 	<header id="">
 		<!-- NAVGATION -->
@@ -14,7 +14,7 @@
 					<!-- Logo -->
 
 					<!-- Mobile toggle -->
-					<button class="navbar-toggle-btn">
+					<button class="navbar-toggle-btn" @click="mostrarMenu()">
 							<i class="fa fa-bars"></i>
 						</button>
 					<!-- Mobile toggle -->
@@ -38,10 +38,13 @@
 				<!-- Search -->
 
 				<!-- Nav menu -->
-				<ul class="navbar-menu nav navbar-nav navbar-right">
+			<ul class="navbar-menu nav navbar-nav navbar-right" :class="{ navbarMenuActive: isActive }">
+					<!--  <ul class="navbar-menu nav navbar-nav navbar-right navbar-menu-active" >	 -->
+					
+					
 					<li> <a href="#/">Home</a></li>
 					<li><a href="#/sobre">Quem Somos</a></li>
-					<li class="has-dropdown"><a>Produtos</a>
+					<li class="has-dropdown " :class="{ dropdownActive: dropActive1 }"><a @click="mostrarDop1()">Produtos</a>
 						<ul class="dropdown">
 							<li><a href="#/seguranca">Segurança Patrimonial</a></li>
 							<li><a href="#/computador">Informática</a></li>
@@ -53,7 +56,7 @@
 							<li><a href="#/logistica">Logistica</a></li>
 						</ul>
 					</li>
-					<li class="has-dropdown"><a href="#">Área Cliente</a>
+					<li class="has-dropdown" :class="{ dropdownActive: dropActive2 }"><a @click="mostrarDop2()">Área Cliente</a>
 						<ul class="dropdown">
 									<li><a target="_blank" href="https://www.satfrotas.net/">GPS</a></li>
 							<li><a href="http://aditelsat.net">Vídeo Vigilância</a></li>

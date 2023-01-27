@@ -1,55 +1,35 @@
 import get_template from '../../components/get_template.js'
 
 export default {
-    data: function () {
-        return {
-       
-        }
-    },
-    methods:{
-         
-    },
+  data: function () {
+    return {
 
-    async mounted() {
+    }
+  },
+  methods: {
 
-        var slider = new KeenSlider(
-        "#my-keen-slider",
-        {
-          loop: true,
-        },
-        [
-          (slider) => {
-            let timeout
-            let mouseOver = false
-            function clearNextTimeout() {
-              clearTimeout(timeout)
-            }
-            function nextTimeout() {
-              clearTimeout(timeout)
-              if (mouseOver) return
-              timeout = setTimeout(() => {
-                slider.next()
-              }, 2000)
-            }
-            slider.on("created", () => {
-              slider.container.addEventListener("mouseover", () => {
-                mouseOver = true
-                clearNextTimeout()
-              })
-              slider.container.addEventListener("mouseout", () => {
-                mouseOver = false
-                nextTimeout()
-              })
-              nextTimeout()
-            })
-            slider.on("dragStarted", clearNextTimeout)
-            slider.on("animationEnded", nextTimeout)
-            slider.on("updated", nextTimeout)
-          },
-        ]
-      )
-        
-    },
+  },
+ 
+  async mounted() {
+
+  new Glide('.cabelario_glide', {
+      type: 'carousel',
+      autoplay: 3000,
+      perView: 1,
+      gap: 20
+    }).mount();
+
     
-    template: await get_template('./assets/js/view/home/home')
+    new Glide('.frase_glide', {
+      type: 'carousel',
+      autoplay: 3500,
+      perView: 2,
+      gap: 20
+    }).mount();
+
+    
+  
+  },
+
+  template: await get_template('./assets/js/view/home/home')
 }
