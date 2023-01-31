@@ -256,7 +256,7 @@ a {
 a:hover, a:focus {
   text-decoration: none;
   outline: none;
-  color: #ba0909;
+  color: #f1af01;
 }
 
 ul, ol {
@@ -284,7 +284,7 @@ blockquote:after {
   bottom: -10px;
   text-align: center;
   font-size: 43px;
-  color: #ba0909;
+  color: #f1af01;
   width: 45px;
   height: 45px;
   line-height: 45px;
@@ -310,6 +310,7 @@ blockquote:after {
   opacity: 0.9;
   -webkit-transition: 0.6s all;
   transition: 0.6s all;
+  z-index: 1;
 }
 
 .primary-button:after {
@@ -357,7 +358,7 @@ textarea.input {
 }
 
 .input:focus {
-  border-color: #ba0909;
+  border-color: #f1af01;
 }
 
 /*----------------------------*\
@@ -441,7 +442,7 @@ textarea.input {
 
 .navbar-menu li a:hover, .navbar-menu li a:focus {
   background-color: transparent;
-  color: #ba0909;
+  color: #f1af01;
 }
 
 /*----------------------------*\
@@ -721,7 +722,7 @@ textarea.input {
 }
 
 .header-content .breadcrumb>li a:hover, .header-content .breadcrumb>li a:hover {
-  color: #ba0909;
+  color: #f1af01;
 }
 
 .header-content .breadcrumb>li+li::before {
@@ -729,7 +730,7 @@ textarea.input {
 }
 
 .header-content .breadcrumb>.active {
-  color: #ba0909;
+  color: #f1af01;
 }
 
 /*=========================================================
@@ -803,7 +804,7 @@ textarea.input {
 
 .number i {
   font-size: 43px;
-  color: #ba0909;
+  color: #f1af01;
   margin-bottom: 15px;
 }
 
@@ -812,12 +813,12 @@ textarea.input {
 }
 
 .number span {
-  color: #ba0909;
+  color: #f1af01;
   font-weight: 700;
 }
 
 .number:hover {
-  border-color: #ba0909;
+  border-color: #f1af01;
 }
 
 /*=========================================================
@@ -877,7 +878,7 @@ textarea.input {
 
 .testimonial .testimonial-meta span {
   font-size: 12px;
-  color: #ba0909;
+  color: #f1af01;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -912,7 +913,7 @@ textarea.input {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: #ba0909;
+  background-color: #f1af01;
   opacity: 0;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity;
@@ -942,7 +943,7 @@ textarea.input {
   position: absolute;
   left: 0;
   top: 0;
-  background-color: #ba0909;
+  background-color: #f1af01;
   bottom: 0;
   border-radius: 10px;
 }
@@ -955,7 +956,7 @@ textarea.input {
   -ms-transform: translate(50%, -100%);
   transform: translate(50%, -100%);
   padding: 2px 10px;
-  background: #ba0909;
+  background: #f1af01;
   color: #FFF;
   font-weight: 400;
   border-radius: 10px;
@@ -965,7 +966,7 @@ textarea.input {
 .causes-progress .causes-progress-bar>div span:after {
   content: "";
   position: absolute;
-  background-color: #ba0909;
+  background-color: #f1af01;
   height: 3px;
   bottom: 0;
   -webkit-transform: translate(-50%, 100%);
@@ -1035,7 +1036,7 @@ textarea.input {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: #ba0909;
+  background-color: #f1af01;
   opacity: 0;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity;
@@ -1067,7 +1068,7 @@ textarea.input {
   height: 25px;
   line-height: 25px;
   border-radius: 50%;
-  color: #ba0909;
+  color: #f1af01;
   border: 1px solid #e6e6ea;
   text-align: center;
   font-size: 15px;
@@ -1087,7 +1088,7 @@ textarea.input {
   height: 45px;
   line-height: 45px;
   border-radius: 50%;
-  color: #ba0909;
+  color: #f1af01;
   border: 1px solid #e6e6ea;
   text-align: center;
   font-size: 21px;
@@ -1118,7 +1119,7 @@ textarea.input {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: #ba0909;
+  background-color: #f1af01;
   opacity: 0;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity;
@@ -1138,6 +1139,7 @@ textarea.input {
 
 .article .article-content .article-title {
   text-transform: capitalize;
+  text-align: center;
 }
 
 .article .article-content .article-title>a {
@@ -1297,7 +1299,7 @@ textarea.input {
 }
 
 .article-pagination li a:hover {
-  border-color: #ba0909;
+  border-color: #f1af01;
 }
 
 .article-pagination li.active {
@@ -1309,7 +1311,7 @@ textarea.input {
   color: #5f646b;
   text-align: center;
   background-color: #FFF;
-  border: 1px solid #ba0909;
+  border: 1px solid #f1af01;
 }
 
 .article-pagination li.active:hover {
@@ -1338,7 +1340,7 @@ textarea.input {
 }
 
 .widget-category ul li a span {
-  color: #ba0909;
+  color: #f1af01;
   margin-left: 10px;
 }
 
@@ -1378,7 +1380,7 @@ textarea.input {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: #ba0909;
+  background-color: #f1af01;
   opacity: 0;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity;
@@ -1435,7 +1437,7 @@ textarea.input {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: #ba0909;
+  background-color: #f1af01;
   opacity: 0;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity;
@@ -1536,7 +1538,7 @@ textarea.input {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: #ba0909;
+  background-color: #f1af01;
   opacity: 0;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity;
@@ -1588,7 +1590,7 @@ textarea.input {
 }
 
 .footer-social li a:hover, .footer-social li a:focus {
-  border-color: #ba0909;
+  border-color: #f1af01;
 }
 
 /*----------------------------*\
@@ -1614,7 +1616,7 @@ textarea.input {
 }
 
 #footer-bottom .footer-nav li a:hover, #footer-bottom .footer-nav li a:focus {
-  color: #ba0909;
+  color: #f1af01;
 }
 
 /*=========================================================
@@ -1675,7 +1677,7 @@ textarea.input {
   }
 
   .home-content h1 {
-    font-size: 20px;
+    font-size: 30px;
     color: #FFF;
     margin-bottom: 30px;
   }
@@ -1704,7 +1706,7 @@ textarea.input {
 }
 
 .owl-theme .owl-nav [class*='owl-']:hover {
-  background: #ba0909;
+  background: #f1af01;
 }
 
 /*----------------------------*\
@@ -1719,13 +1721,13 @@ textarea.input {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  border-color: #ba0909;
-  background: #ba0909;
+  border-color: #f1af01;
+  background: #f1af01;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
   width: 20px;
-  border-color: #ba0909;
-  background: #ba0909;
+  border-color: #f1af01;
+  background: #f1af01;
 }
 
