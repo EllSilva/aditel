@@ -25,8 +25,8 @@ Vue.component('p-home', page_home)
 import page_sobre from './view/sobre/home.js'
 Vue.component('p-sobre', page_sobre)
  
-import page_informatica from './view/informatica/home.js'
-Vue.component('p-informatica', page_informatica)
+import page_computador from './view/info_mult/computador.js'
+Vue.component('p-computador', page_computador)
 
 import page_contacto from './view/contacto/home.js'
 Vue.component('p-contacto', page_contacto)
@@ -48,24 +48,26 @@ Vue.component('p-energia', page_energia)
 import page_internet from './view/internet/home.js'
 Vue.component('p-internet', page_internet)
 
-import page_acessorio from './view/acessorio/home.js'
-Vue.component('p-acessorio', page_acessorio)
+import page_info_mult from './view/info_mult/home.js'
+Vue.component('p-info_mult', page_info_mult)
  
-import page_cabos from './view/acessorio/cabos.js'
+import page_cabos from './view/info_mult/cabos.js'
 Vue.component('p-cabos', page_cabos)
-import page_monitores from './view/acessorio/monitores.js'
+import page_monitores from './view/info_mult/monitores.js'
 Vue.component('p-monitores', page_monitores)
-import page_armazenagem from './view/acessorio/armazenagem.js'
+import page_armazenagem from './view/info_mult/armazenagem.js'
 Vue.component('p-armazenagem', page_armazenagem)
-import page_alimentacao from './view/acessorio/alimentacao.js'
+import page_alimentacao from './view/info_mult/alimentacao.js'
 Vue.component('p-alimentacao', page_alimentacao)
-import page_audio from './view/acessorio/audio.js'
+import page_audio from './view/info_mult/audio.js'
 Vue.component('p-audio', page_audio)
-import page_ahdsolu from './view/acessorio/ahdsolu.js'
+import page_ahdsolu from './view/info_mult/ahdsolu.js'
 Vue.component('p-ahdsolu', page_ahdsolu)
 
-import page_diversos from './view/diversos/home.js'
-Vue.component('p-diversos', page_diversos)
+import page_tv from './view/info_mult/tv.js'
+Vue.component('p-tv', page_tv)
+import page_telefone from './view/info_mult/telefone.js'
+Vue.component('p-telefone', page_telefone)
 
 import page_logistica from './view/logistica/home.js'
 Vue.component('p-logistica', page_logistica)
@@ -82,11 +84,11 @@ const routes = [
     { path: '/fire', component: { template: '<p-incendio></p-incendio>' } },
     { path: '/intrusao', component: { template: '<p-intrusao></p-intrusao>' } },
 
-     { path: '/computador', component: { template: '<p-informatica></p-informatica>' } },
+     { path: '/computador', component: { template: '<p-computador></p-computador>' } },
      { path: '/solar', component: { template: '<p-energia></p-energia>' } },
      { path: '/telecomunicacao', component: { template: '<p-internet></p-internet>' } },
 
-     { path: '/acessorio', component: { template: '<p-acessorio></p-acessorio>' } },
+     { path: '/informatica&multimidia', component: { template: '<p-info_mult></p-info_mult>' } },
      { path: '/cabos', component: { template: '<p-cabos></p-cabos>' } },
      { path: '/monitores', component: { template: '<p-monitores></p-monitores>' } },
      { path: '/store', component: { template: '<p-armazenagem></p-armazenagem>' } },
@@ -94,9 +96,10 @@ const routes = [
      { path: '/audio', component: { template: '<p-audio></p-audio>' } },
      { path: '/ahdsolu', component: { template: '<p-ahdsolu></p-ahdsolu>' } },
 
-     { path: '/diversos', component: { template: '<p-diversos></p-diversos>' } },
+     { path: '/telefone', component: { template: '<p-telefone></p-telefone>' } },
+     { path: '/tv', component: { template: '<p-tv></p-tv>' } },
      { path: '/logistica', component: { template: '<p-logistica></p-logistica>' } },
-     
+   
 ]
 
 const router = new Router({ routes })

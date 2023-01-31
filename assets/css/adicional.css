@@ -1,38 +1,4 @@
-.letra3d {
-  color: #fff;
-
-  text-shadow:
-    1px -1px 0 #2f5d87,
-    2px -2px 0 #2e5a83,
-    3px -3px 0 #2d5880,
-    4px -4px 0 #2b557c,
-    5px -5px 0 #2a5378,
-    6px -6px 0 #295074,
-    7px -7px 0 #274d71,
-    8px -8px 0 #264b6d,
-    9px -9px 0 #254869,
-    10px -10px 0 #234665,
-    11px -11px 0 #224361,
-    12px -12px 0 #21405e,
-    13px -13px 12px rgba(0, 0, 0, 0.55),
-    13px -13px 1px rgba(0, 0, 0, 0.5);
-}
-
-
-.bg-capa {
-  background-image:
-    url("/assets/img/jms1.jpg");
-  background-size: 100%;
-  border: solid 2px;
-  text-shadow: white 0px 0px 2px;
-}
-
-.bg-letra {
-  position: absolute;
-  top: 30%;
-  padding-left: 5%;
-}
-
+ 
 .letraTamanho {
   font-size: 20px !important;
 }
@@ -52,7 +18,7 @@
 }
 
 .kim {   
-  margin-top: -13%;
+  margin-top: -15%;
   margin-left: 10%;
    
 }
@@ -77,10 +43,32 @@
   margin-top: 10%; 
 }
  
+
 .espaco-bottom {
-  margin-bottom: 10%; 
+  margin-bottom: 8%; 
 }
 
+.div_direita {
+  width: 50%;
+  float: right;
+  font-size: 18px;
+  color: #fefefe;
+  background-color: #f1af01;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 30px;
+}
+
+.cor_mult { 
+  color: #fefefe;
+}
+
+.padra_img {  
+  height: 80%;
+  max-width: 80%;
+}
+
+ 
 /*===========GLIDE.JS=================**/
 
 /*===========cabelario_glide =================**/
@@ -266,20 +254,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
  
 
 .number-slide {

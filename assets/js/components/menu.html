@@ -42,29 +42,27 @@
 					<!--  <ul class="navbar-menu nav navbar-nav navbar-right navbar-menu-active" >	 -->
 					
 					
-					<li> <a href="#/">Home</a></li>
-					<li><a href="#/sobre">Quem Somos</a></li>
+					<li> <a href="#/" @click="esconderMenu()">Home</a></li>
+					<li><a href="#/sobre" @click="esconderMenu()">Quem Somos</a></li>
 					<li class="has-dropdown " :class="{ dropdownActive: dropActive1 }"><a @click="mostrarDop1()">Produtos</a>
 						<ul class="dropdown">
-							<li><a href="#/seguranca">Segurança Patrimonial</a></li>
-							<li><a href="#/computador">Informática</a></li>
-							<li><a href="#/solar">Energias</a></li>
-							<li><a href="#/telecomunicacao">Telecomunicações</a></li>
-							
-							<li><a href="#/acessorio">Acessórios</a></li>
-							<li><a href="#/diversos">Diversos</a></li>
-							<li><a href="#/logistica">Logistica</a></li>
+							<li><a href="#/seguranca" @click="esconderMenu()">Segurança Patrimonial</a></li>
+							<li><a href="#/informatica&multimidia" @click="esconderMenu()">Informática / Multimídia</a></li>
+							<li><a href="#/solar" @click="esconderMenu()">Energias</a></li>
+							<li><a href="#/telecomunicacao" @click="esconderMenu()">Telecomunicações</a></li>
+						 
+							<li><a href="#/logistica" @click="esconderMenu()">Logistica</a></li>
 						</ul>
 					</li>
 					<li class="has-dropdown" :class="{ dropdownActive: dropActive2 }"><a @click="mostrarDop2()">Área Cliente</a>
 						<ul class="dropdown">
-									<li><a target="_blank" href="https://www.satfrotas.net/">GPS</a></li>
-							<li><a href="http://aditelsat.net">Vídeo Vigilância</a></li>
-							<li><a href=""> Outros</a></li>
+									<li><a target="_blank" href="https://www.satfrotas.net/" @click="esconderMenu()">GPS</a></li>
+							<li><a href="http://aditelsat.net" @click="esconderMenu()">Vídeo Vigilância</a></li>
+							<li><a href="" @click="esconderMenu()"> Outros</a></li>
 						</ul>
 					</li>
 					
-				<li><a href="#/contacto">Contactos</a></li>
+				<li><a href="#/contacto" @click="esconderMenu()">Contactos</a></li>
 				</ul>
 				<!-- Nav menu -->
 			</div>

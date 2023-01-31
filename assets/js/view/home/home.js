@@ -3,7 +3,7 @@ import get_template from '../../components/get_template.js'
 export default {
   data: function () {
     return {
-
+      tamanho: 3,
     }
   },
   methods: {
@@ -20,10 +20,10 @@ export default {
     }).mount();
 
     
-    new Glide('.frase_glide', {
+    new Glide('.destague_glide', {
       type: 'carousel',
       autoplay: 3500,
-      perView: 2,
+      perView: this.tamanho,
       gap: 20
     }).mount();
 
