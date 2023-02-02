@@ -24,6 +24,16 @@
 	</div>
 	<!-- /Page Header -->
 
+
+
+
+
+
+
+
+
+
+
 	<!-- SECTION -->
 	<div class="section">
 		<!-- container -->
@@ -32,125 +42,132 @@
 			<div class="row">
 				<!-- MAIN -->
 				<main id="main" class="col-md-9">
+
+ 
 					<div class="row">
-
-
-						<!-- article -->
 						<div class="col-md-6">
-							<div class="article">
-								<div class="article-img">
-									<a>
-										<img src="assets/img/internet/VSAT3.jpg" alt="">
-									</a>
-								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a class="">Antena Satélite VSAT, 2.4M
-										</a></h3>
-									<ul class="article-meta">
-
-
-									</ul>
-									<p><strong>Banda C, Suporta velocidade download acima de 20Mbps. Entrega imediata em
-											Angola.</strong></p>
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/internet/VSAT3.jpg" alt="">
+								<div class="team-desc" v-on:click="jms1 = !jms1">
+									<h4 class="mb-0">Antena Satélite VSAT, 2.4M</h4>
+									<p class="mb-1">Click aqui para Ver Descricao</p>
 								</div>
 							</div>
-						</div>
-						<!-- /article -->
 
-						<div class="col-md-6 ">
-							<div class="article">
-								<div class="article-img card_tamImg">
-									<a>
-										<img class="noneImg1 " src="assets/img/internet/VSAT-Mapa_Cobertura.png" alt="">
-									</a>
-								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a class="">Cobertura VSAT </a></h3>
+							<div v-if="jms1" class="descicao">
+								<p>
+									<strong>
+										Descrição Geral da antena VSAT 2.4m
+									</strong>
+								</p>
 
-									<p><strong>Cobertura VSAT em Banda Larga velocidate 50Mbps para atender suas
-											necessidades no campo ou no centro Urbano.</strong></p>
-								</div>
+								<p>
+									Antena é projetada para transmissão e operação recebimento de dados na Banda C, Ka e
+									KU.
+									<br>
+									Refletor construído com o formato de duplo revestimento de 4 painéis.
+									Azimute padrão projetado sobre elevação do pedestal, fornecendo uma solução
+									econômica para a instalação de piso ou teto com alta rigidez e estabilidade.
+									Az & EL projectado para fornecer ótimo desempenho no Terminal VSAT, para assegurar e
+									apontar o rastreamento com precisão em Satélites INTELSAT.
+
+								</p>
 							</div>
 						</div>
 
-
-						<!-- article -->
 						<div class="col-md-6">
-							<div class="article">
-								<div class="article-img">
-									<a>
-										<img src="assets/img/internet/antenas_ap.jpg" alt="">
-									</a>
-								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a class="">Antena 5Ghz, 802.11ac,
-											Trans-Receptor
-										</a></h3>
-									<ul class="article-meta">
-
-
-									</ul>
-									<p><strong>
-											Antena receptora 5Ghz, 802.11ac, velocidade 300Mbps, Cobertura
-											Trans-Receptor 3.5Km.
-										</strong></p>
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/internet/VSAT-Mapa_Cobertura.png" alt="">
+								<div class="team-desc" v-on:click="jms2 = !jms2">
+									<h4 class="mb-0">Cobertura VSAT</h4> 
+									<p class="mb-1">Click aqui para Ver Descricao</p>
 								</div>
 							</div>
-						</div>
-						<!-- /article -->
+							
+							<div v-if="jms2" class="descicao">
+								<p>
+									<strong>
+										Descrição Geral Cobertura VSAT
+									</strong>
+								</p>
 
-						<div class="col-md-6 ">
-							<div class="article">
-								<div class="article-img card_tamImg">
-									<a>
-										<img class="noneImg1 " src="assets/img/internet/antenas_5g.jpg" alt="">
-									</a>
-								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a class="">Antena (AP) 5.8Ghz, 802.11ac
-										</a></h3>
-
-									<p><strong>
-											Antena (AP) 5.8Ghz, 802.11ac
-											900Mbps, Gigabit LAN, 802.3af POE(48VDC)
-											Transmissao 10Km.
-										</strong></p>
-								</div>
+								<p>
+									Cobertura VSAT em Banda Larga velocidate 50Mbps para atender suas
+									necessidades no campo ou no centro Urbano.
+								</p>
 							</div>
 						</div>
 
-
-
-
-						<!-- article -->
-						<div class="col-md-6 ">
-							<div class="article">
-								<div class="article-img card_tamImg">
-									<a>
-										<img class="noneImg1 " src="assets/img/internet/torre.jpg" alt="">
-									</a>
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/internet/antenas_ap.jpg" alt="">
+								<div class="team-desc" v-on:click="jms3 = !jms3">
+									<h4 class="mb-0">Antena 5Ghz, 802.11ac,
+										Trans-Receptor</h4>
+										<p class="mb-1">Click aqui para Ver Descricao</p>
+								 
 								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a class="">Torres de Telecom e seus
-											respectivos componentes</a></h3>
-									<ul class="article-meta">
+							</div>
+							<div v-if="jms3" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
 
+								<p>
+									Antena receptora 5Ghz, 802.11ac, velocidade 300Mbps, Cobertura
+									Trans-Receptor 3.5Km.
+								</p>
+							</div>
+						</div>
 
-									</ul>
-									<p><strong>
-											Para nós Suas necessidades em Telecomunicações vem primeiro; para tal, devem
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/internet/antenas_5g.jpg" alt="">
+								<div class="team-desc" v-on:click="jms4 = !jms4">
+									<h4 class="mb-0">Antena (AP) 5.8Ghz, 802.11ac</h4>
+									<p class="mb-1">Click aqui para Ver Descricao</p>
+								</div>
+							</div>
+
+							<p v-if="jms4">
+								<strong>
+									Antena (AP) 5.8Ghz, 802.11ac
+									900Mbps, Gigabit LAN, 802.3af POE(48VDC)
+									Transmissao 10Km.
+								</strong>
+							</p>
+						</div>
+
+						
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/internet/torre.jpg" alt="">
+								<div class="team-desc" v-on:click="jms3 = !jms3">
+									<h4 class="mb-0">Torres de Telecomunicações </h4>
+										<p class="mb-1">Click aqui para Ver Descricao</p>
+								 
+								</div>
+							</div>
+							<div v-if="jms3" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									Para nós Suas necessidades em Telecomunicações vem primeiro; para tal, devem
 											ter flexibilidade e facilidades exequiveis, temos uma equipa criada e focada
 											especificamente em ser seu parceiro dedicado à 365 dias fornecendo Torres de
 											Telecom e seus respectivos componentes.
 											"Experimente, que o resto é connosco, é o Nosso Trabalho!"
-
-										</strong></p>
-								</div>
+								</p>
 							</div>
 						</div>
-
-
 					</div>
+ 
 				</main>
 				<!-- /MAIN -->
 

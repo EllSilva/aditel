@@ -38,106 +38,128 @@
 			<div class="row">
 				<!-- MAIN -->
 				<main id="main" class="col-md-9"> 
-				 
 
-					<div class="row">
-						<!-- article -->
+
+				<div class="row"> 
 						<div class="col-md-6">
-							<div class="article text_center">
-								<div class="article-img">
-									<a>
-										<img class="" src="assets/img/segurança/7gps.JPG" alt="">
-									</a>
-								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a class="">GPS + Alarme </a></h3>
-									
-									<p>Proteja já o seu veiculo.</p>
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/segurança/7gps.JPG" alt="">
+								<div class="team-desc" v-on:click="jms1 = !jms1">
+									<h4 class="mb-0">GPS + Alarme</h4>
+									<p class="mb-1">Click aqui para Ver Descricao</p>
 								</div>
 							</div>
-						</div>
-						<!-- /article -->
 
-						<!-- article -->
-						<div class="col-md-6">
-							<div class="article text_center">
-								<div class="article-img">
-									<a>
-										<img class="" src="assets/img/segurança/8gps.JPG" alt="">
-									</a>
-								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a class="">GPS + Alarme SHUTT</a></h3>
-									
-									<p>A melhor opção de proteção para o seu transporte.</p>
-								</div>
+							<div v-if="jms1" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									Proteja já o seu veiculo.
+								</p>
 							</div>
 						</div>
-						<!-- /article -->
-
-
-								<!-- article -->
-								<div class="col-md-6">
-									<div class="article text_center">
-										<div class="article-img">
-											<a>
-												<img class="" src="assets/img/segurança/g-feature-1.png" alt="">
-											</a>
-										</div>
-										<div class="article-content">
-											<h3 class="article-title"><a class="">Controlo remoto</a> </h3>
-											<p class="">Leve, pequeno e anatômico. Memoriza até 4 funções, senha digital
-												personalizada de 2 digitos
-												para desativação.
-											</p>
-										</div>
-									</div>
+ 
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/segurança/8gps.JPG" alt="">
+								<div class="team-desc" v-on:click="jms2 = !jms2">
+									<h4 class="mb-0">GPS + Alarme SHUTT</h4> 
+									<p class="mb-1">Click aqui para Ver Descricao</p>
 								</div>
-								<!-- /article -->
-		
-								<!-- article -->
-								<div class="col-md-6">
-									<div class="article text_center">
-										<div class="article-img">
-											<a>
-												<img class="" src="assets/img/segurança/g-feature-2.png"  alt="">
-											</a>
-										</div>
-										<div class="article-content">
-											<h3 class="article-title"><a class="">Sonorificação </a></h3>
-											<p class="">Indicações sonoras na activação e na desativação, sons de pânico e
-												localizador.
-												sirene dedicada a desativação.</p>
+							</div>
+							
+							<div v-if="jms2" class="descicao">
+								<p>
+									<strong>
+										Descrição 
+									</strong>
+								</p>
+
+								<p>
+									A melhor opção de proteção para o seu transporte.
+								</p>
+							</div>
+						</div>
+ 
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/segurança/g-feature-1.png" alt="">
+								<div class="team-desc" v-on:click="jms3 = !jms3">
+									<h4 class="mb-0">Controlo remoto</h4>
+										<p class="mb-1">Click aqui para Ver Descricao</p>
 								 
-										</div>
-									</div>
 								</div>
-								<!-- /article -->
-				<!-- article -->
-				<div class="col-md-6">
-					<div class="article text_center">
-						<div class="article-img">
-							<a>
-								<img class="" src="assets/img/segurança/g-feature-3.png"  alt="">
-							</a>
+							</div>
+							<div v-if="jms3" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									Leve, pequeno e anatômico. Memoriza até 4 funções, senha digital
+											personalizada de 2 digitos
+											para desativação.
+								</p>
+							</div>
 						</div>
-						<div class="article-content">
-							<h3 class="article-title"> <a>GPS</a></h3>
-						 
-							<p class="">Reativação automática (programável), função antiassalto ACTIVA, funçaõ
-								antiassalto PASSIVA
-								(Acionamento por afastamento).</p>
+ 		  
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/segurança/g-feature-2.png" alt="">
+								<div class="team-desc" v-on:click="jms4 = !jms4">
+									<h4 class="mb-0">Sonorificação</h4>
+									<p class="mb-1">Click aqui para Ver Descricao</p>
+								</div>
+							</div>
+
+							<div v-if="jms4" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									Indicações sonoras na activação e na desativação, sons de pânico e
+												localizador.
+												sirene dedicada a desativação
+								</p>
+							</div>
+ 
+						</div>
+
+						
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/segurança/g-feature-3.png" alt="">
+								<div class="team-desc" v-on:click="jms3 = !jms3">
+									<h4 class="mb-0">GPS</h4>
+										<p class="mb-1">Click aqui para Ver Descricao</p>
+								 
+								</div>
+							</div>
+							<div v-if="jms3" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									Reativação automática (programável), função antiassalto ACTIVA, funçaõ
+									antiassalto PASSIVA
+									(Acionamento por afastamento)
+								</p>
+							</div>
 						</div>
 					</div>
-				</div>
-				<!-- /article -->
-		
-
- 
-					</div>
- 
-
-
+  
 				</main>
 				<!-- /MAIN -->
 

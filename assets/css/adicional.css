@@ -1,307 +1,354 @@
- 
-.letraTamanho {
-  font-size: 20px !important;
-}
+ .letraTamanho {
+   font-size: 20px !important;
+ }
 
-.subTamanho {
-  font-size: 20px !important;
-}
+ .subTamanho {
+   font-size: 20px !important;
+ }
 
-.cor_padaro {
-  color: #f1af01 !important;
-}
+ .cor_padaro {
+   color: #f1af01 !important;
+ }
 
 
-.cor_padaro_fonte {
-  color: #f1af01 !important;
-  font-size: 25px !important;
-}
+ .cor_padaro_fonte {
+   color: #f1af01 !important;
+   font-size: 25px !important;
+ }
 
-.kim {   
-  margin-top: -15%;
-  margin-left: 10%;
+ .kim {
+   margin-top: -15%;
+   margin-left: 10%;
+
+ }
+
+ .content-top {
+   margin-top: 10%;
+   width: 350px;
+ }
+
+ .descricao {
+   width: 80%;
+ }
+
+
+ .section_slider {
+   position: relative;
+   padding: 50px 0px;
+ }
+
+
+ .espaco-top {
+   margin-top: 10%;
+ }
+
+
+ .espaco-bottom {
+   margin-bottom: 8%;
+ }
+
+ .div_direita {
+
+   float: right;
+   font-size: 20px;
+   color: #fefefe;
+   text-align: center;
+ }
+
+ .cor_mult {
+   color: #fefefe;
+ }
+
+ .padra_img {
+   height: 80%;
+   max-width: 80%;
+ }
+
+ .text_center {
+   text-align: center;
+ }
+
+
+
+
+
+
+ /*============================
+=            Stilos nos Produtos            =
+============================*/
+ .team-card {
+   position: relative;
+ }
+
+ .team-card:hover .team-desc {
+   height: 100px;
+ }
+
+ .team-card:hover .team-desc .team-social-links {
+   opacity: 1;
+ }
+
+ .team-desc {
+   position: absolute; 
    
-}
-  
-.content-top {
-  margin-top: 10%;
-  width: 350px;
-}
+   width: auto;
+   left: 15px;
+   bottom: 1px;
+   right: 15px;
 
-.descricao { 
-  width: 80%;
-}
+   text-align: center;
+   padding: 15px;
+   height: 50px;
+   overflow: hidden;
+   transition: all .3s ease-in-out;
 
-
-.section_slider {
-  position: relative;
-  padding: 50px 0px;
-}
-
-
-.espaco-top {
-  margin-top: 10%; 
-}
+   background-color: #f1af01;
  
+ }
 
-.espaco-bottom {
-  margin-bottom: 8%; 
-}
+ .team-social-links {
+   opacity: 0;
+   transition: all .3s ease-in-out;
+ }
 
-.div_direita {
- 
-  float: right;
-  font-size: 20px;
-  color: #fefefe; 
-  text-align: center; 
-}
-
-.cor_mult { 
-  color: #fefefe;
-}
-
-.padra_img {  
-  height: 80%;
-  max-width: 80%;
-}
-
-.text_center {  
-text-align: center;
-}
+ /*=====  End of TEAM  ======*/
+ /*===================================
+=    
 
 
 
  
 /*===========GLIDE.JS=================**/
 
-/*===========cabelario_glide =================**/
+ /*===========cabelario_glide =================**/
 
-.cabelario_glide {
-  margin-top: 25px;
-}
+ .cabelario_glide {
+   margin-top: 25px;
+ }
 
-.cabelario_glide .glide__slide {
-  padding-top: 15px;
-  padding-bottom: 15px;
+ .cabelario_glide .glide__slide {
+   padding-top: 15px;
+   padding-bottom: 15px;
 
-}
+ }
 
-.cabelario_glide .glide__slide .card {
-  position: relative;
-  overflow: hidden;
+ .cabelario_glide .glide__slide .card {
+   position: relative;
+   overflow: hidden;
 
-}
+ }
 
-/*===========fim cabelario_glide=================**/
-
-
-
-/*===========frases =================**/
-
-.frase_glide {
-  margin-top: 25px;
-}
-
-.frase_glide .glide__slide {
-  padding-top: 15px;
-  padding-bottom: 15px;
-
-}
-
-.frase_glide .glide__slide .card {
-  position: relative;
-  overflow: hidden;
-
-}
-
-
-/*===========fim frases=================**/
-.glide {
-  margin-top: 25px;
-
-}
-
-.glide .glide__slide {
-  padding-top: 15px;
-  padding-bottom: 15px;
-
-}
-
-.glide .glide__slide .card {
-  height: 470px;
-  background-color: #21405e;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 1px 2px 13px 1px rgb(11, 10, 10);
-
-}
-
-
-.glide .glide__slide .card img {
-  height: 100%;
-  max-width: 100%;
-  object-fit: cover;
-}
-
-.glide .glide__slide .card img .share {
-  height: 40px;
-  max-width: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-boder-radius: 50%;
-  -ms-boder-radius: 50%;
-  -o-boder-radius: 50%;
-  top: 15px;
-  right: 15px;
-  font-size: 22px;
-}
-
-.glide .glide__slide .card .content {
-  background-color: #fff;
-  position: absolute;
-  bottom: -100%;
-  left: 0;
-  width: 100%;
-  color: #000;
-  z-index: 99;
-  padding: 20px 15px;
-  text-align: center;
-  transition: all .3s ease;
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  -o-transition: all .3s ease;
-}
+ /*===========fim cabelario_glide=================**/
 
 
 
-.glide .glide__slide .card .content span {
-  font-size: 12px;
-  font-weight: 300;
-  letter-spacing: -20%;
+ /*===========frases =================**/
 
-}
+ .frase_glide {
+   margin-top: 25px;
+ }
 
-.glide .glide__slide .card .content h6 {
-  font-size: 16px;
-  line-height: 30px;
-  font-weight: 500;
-  margin-bottom: 25px;
-  position: relative;
-}
+ .frase_glide .glide__slide {
+   padding-top: 15px;
+   padding-bottom: 15px;
 
-.glide .glide__slide .card .content h6::before {
-  content: '';
-  position: absolute;
-  width: 40%;
-  height: 2px;
-  background-color: #000;
-  bottom: -8px;
-  left: 30%;
+ }
 
-}
+ .frase_glide .glide__slide .card {
+   position: relative;
+   overflow: hidden;
 
-.glide .glide__slide .card .content p {
-
-  font-size: 12px;
-  font-weight: 300;
-  margin-bottom: 10px;
-  letter-spacing: 1px;
-}
-
-.glide .glide__slide .card:hover .content {
-  bottom: 0;
-}
-
-.glide__arrows .glide__arrows--rignt {
-  right: .5em;
-}
-
-.glide__arrows .glide__arrows--left {
-  right: .5em;
-}
-
-.glide__arrows .glide__arrow {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  background-color: #fff;
-  color: #000;
-  font-size: 26px;
-  padding: 0;
-  align-items: center;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-boder-radius: 50%;
-  -ms-boder-radius: 50%;
-  -o-boder-radius: 50%;
-
-}
+ }
 
 
+ /*===========fim frases=================**/
+ .glide {
+   margin-top: 25px;
 
-/*===========FIM GLIDE.JS=================**/
+ }
+
+ .glide .glide__slide {
+   padding-top: 15px;
+   padding-bottom: 15px;
+
+ }
+
+ .glide .glide__slide .card {
+   height: 470px;
+   background-color: #21405e;
+   position: relative;
+   overflow: hidden;
+   box-shadow: 1px 2px 13px 1px rgb(11, 10, 10);
+
+ }
 
 
+ .glide .glide__slide .card img {
+   height: 100%;
+   max-width: 100%;
+   object-fit: cover;
+ }
+
+ .glide .glide__slide .card img .share {
+   height: 40px;
+   max-width: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-boder-radius: 50%;
+   -ms-boder-radius: 50%;
+   -o-boder-radius: 50%;
+   top: 15px;
+   right: 15px;
+   font-size: 22px;
+ }
+
+ .glide .glide__slide .card .content {
+   background-color: #fff;
+   position: absolute;
+   bottom: -100%;
+   left: 0;
+   width: 100%;
+   color: #000;
+   z-index: 99;
+   padding: 20px 15px;
+   text-align: center;
+   transition: all .3s ease;
+   -webkit-transition: all .3s ease;
+   -moz-transition: all .3s ease;
+   -ms-transition: all .3s ease;
+   -o-transition: all .3s ease;
+ }
+
+
+
+ .glide .glide__slide .card .content span {
+   font-size: 12px;
+   font-weight: 300;
+   letter-spacing: -20%;
+
+ }
+
+ .glide .glide__slide .card .content h6 {
+   font-size: 16px;
+   line-height: 30px;
+   font-weight: 500;
+   margin-bottom: 25px;
+   position: relative;
+ }
+
+ .glide .glide__slide .card .content h6::before {
+   content: '';
+   position: absolute;
+   width: 40%;
+   height: 2px;
+   background-color: #000;
+   bottom: -8px;
+   left: 30%;
+
+ }
+
+ .glide .glide__slide .card .content p {
+
+   font-size: 12px;
+   font-weight: 300;
+   margin-bottom: 10px;
+   letter-spacing: 1px;
+ }
+
+ .glide .glide__slide .card:hover .content {
+   bottom: 0;
+ }
+
+ .glide__arrows .glide__arrows--rignt {
+   right: .5em;
+ }
+
+ .glide__arrows .glide__arrows--left {
+   right: .5em;
+ }
+
+ .glide__arrows .glide__arrow {
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   background-color: #fff;
+   color: #000;
+   font-size: 26px;
+   padding: 0;
+   align-items: center;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-boder-radius: 50%;
+   -ms-boder-radius: 50%;
+   -o-boder-radius: 50%;
+
+ }
+
+
+
+ /*===========FIM GLIDE.JS=================**/
 
 
 
 
 
 
- 
-@media only screen and (max-width: 880px) {
-  .number-slide {
-    width: 100%;
-    height: 800px;
-  }
 
-  .kim {   
-    margin-top: -27%;
-    margin-left: 13%;
-     
-  }
-  .descricao { 
-    width: 100%;
-  }
-  
-}
- 
 
-.row_jms {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px
-}
 
-.order-1 {
-  -ms-flex-order: 1;
-  order: 1
-}
+ @media only screen and (max-width: 880px) {
+   .number-slide {
+     width: 100%;
+     height: 800px;
+   }
 
-.order-2 {
-  -ms-flex-order: 2;
-  order: 2
-}
+   .kim {
+     margin-top: -27%;
+     margin-left: 13%;
 
-@media (min-width:768px) {
-   
-  .order-md-1 {
-      -ms-flex-order: 1;
-      order: 1
-  }
+   }
 
-  .order-md-2 {
-      -ms-flex-order: 2;
-      order: 2
-  }
+   .descricao {
+     width: 100%;
+   }
 
- 
-}
+ }
+
+
+ .row_jms {
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   margin-right: -15px;
+   margin-left: -15px
+ }
+
+ .order-1 {
+   -ms-flex-order: 1;
+   order: 1
+ }
+
+ .order-2 {
+   -ms-flex-order: 2;
+   order: 2
+ }
+
+ @media (min-width:768px) {
+
+   .order-md-1 {
+     -ms-flex-order: 1;
+     order: 1
+   }
+
+   .order-md-2 {
+     -ms-flex-order: 2;
+     order: 2
+   }
+
+
+ }

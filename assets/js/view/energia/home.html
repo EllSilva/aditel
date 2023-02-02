@@ -32,77 +32,84 @@
 			<div class="row">
 				<!-- MAIN -->
 				<main id="main" class="col-md-9">
+				
+				
 					<div class="row">
-
-						<!-- article -->
+							 
 						<div class="col-md-6">
-							<div class="article">
-								<div class="article-img">
-									<a >
-										<img class="" src="assets/img/solar/1.JPG" alt="">
-									</a>
-								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a>TRUNSUN</a></h3>
-									 
-									<p>Modulo Policristalino: TSP260-600: 260WP</p>
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/solar/1.JPG" alt="">
+								<div class="team-desc" v-on:click="jms1 = !jms1">
+									<h4 class="mb-0">TRUNSUN</h4>
+									<p class="mb-1">Click aqui para Ver Descricao</p>
 								</div>
 							</div>
+
+							<div v-if="jms1" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									Modulo Policristalino: TSP260-600: 260WP
+								</p>
+							</div>
 						</div>
-						<!-- /article -->
  
-						<!-- article -->
+
 						<div class="col-md-6">
-							<div class="article">
-								<div class="article-img">
-									<a >
-										<img class="" src="assets/img/solar/5.PNG" alt="">
-									</a>
-								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a>aps yc1000-3</a></h3>
-									 
-									<p>Inversor trifásico com potência de saída: 500 w</p>
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/solar/5.png" alt="">
+								<div class="team-desc" v-on:click="jms2 = !jms2">
+									<h4 class="mb-0">aps yc1000-3</h4> 
+									<p class="mb-1">Click aqui para Ver Descricao</p>
 								</div>
 							</div>
-						</div>
-						<!-- /article -->
+							
+							<div v-if="jms2" class="descicao">
+								<p>
+									<strong>
+										Descrição 
+									</strong>
+								</p>
 
-					
-							<!-- article -->
-					<div class="col-md-6">
-							<div class="article">
-								<div class="article-img">
-									<a >
-										<img class="" src="assets/img/solar/6.jpg" alt="">
-									</a>
-								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a>Regulador Automático de Tensão AVR4KVA</a></h3>
-									<ul class="article-meta">
-										
-										
-									</ul>
-									<p>Estabilizador de tensão 4kva, Fase Monofásico, Tensão de entrada 100 280v, Tensão de saída 220V</p>
-								</div>
+								<p>
+									Inversor trifásico com potência de saída: 500 w
+								</p>
 							</div>
 						</div>
-						<!-- /article -->
 
-						<!-- pagination 
-						<div class="col-md-12">
-							<ul class="article-pagination">
-								<li class="active"><<</li>
-								
-								<li>|</li>
-								<li><a href="#">>></a></li>
-							</ul>
-						</div>
-						<!-- /pagination -->
+ 
+
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/solar/6.jpg" alt="">
+								<div class="team-desc" v-on:click="jms3 = !jms3">
+									<h4 class="mb-0">Regulador Automático de Tensão AVR4KVA</h4>
+										<p class="mb-1">Click aqui para Ver Descricao</p>
+								 
+								</div>
+							</div>
+							<div v-if="jms3" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									Estabilizador de tensão 4kva, Fase Monofásico, Tensão de entrada 100 280v, Tensão de saída 220V
+								</p>
+							</div>
+						</div> 
+					</div> 
+					<div class="row">
+ 
 					</div>
 				</main>
 				<!-- /MAIN -->
-
 				<!-- ASIDE -->
 				<aside id="aside" class="col-md-3">
 					<c-outracategoria></c-outracategoria>
