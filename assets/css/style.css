@@ -707,8 +707,7 @@ textarea.input {
 
 .header-content h1 {
   color: #FFF;
-  text-transform: capitalize;
-  margin-bottom: 30px;
+   margin-bottom: 30px;
 }
 
 .header-content .breadcrumb {
