@@ -294,10 +294,22 @@ input.email-bt::placeholder {
      margin: 0 auto;
      text-align: center;
      color: #2b3436;
-     font-size: 50px;
+     font-size: 40px;
      margin-left: 0px;
      border-bottom: 1px solid #000;
 }
+
+
+ 
+.ride_text_slide{
+     width: 80%;
+     margin: 0 auto; 
+     color: #2b3436;
+     font-size: 40px;
+     margin-left: 0px;
+    
+   }
+   
 
 .ride_main {
     width: 80%;

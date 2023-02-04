@@ -67,12 +67,13 @@
  .text_center {
    text-align: center;
  }
+ .submenupro {
+  background-color: #f5f5f5;
+}
 
-
-
-
-
-
+ 
+ 
+  
  /*============================
 =            Stilos nos Produtos            =
 ============================*/
@@ -119,6 +120,25 @@
 
  
 /*===========GLIDE.JS=================**/
+ /*===========cabelario_glide_produtos =================**/
+
+ .cabelario_glide_produto {
+  margin-top: 25px;
+}
+
+.cabelario_glide_produto .glide__slide {
+  padding-top: 15px; 
+
+}
+
+.cabelario_glide_produto .glide__slide .card {
+  position: relative;
+  overflow: hidden;
+
+}
+
+/*===========fim cabelario_glide_produtos=================**/
+
 
  /*===========cabelario_glide =================**/
 

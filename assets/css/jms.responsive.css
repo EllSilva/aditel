@@ -172,6 +172,12 @@
         font-size: 30px;
     }
 
+    .ride_text_slide {
+        font-size: 30px;
+    }
+
+    
+
     .image_3 {
         margin-top: 20px;
     }
@@ -542,6 +548,10 @@
     }
 
     .ride_text {
+        font-size: 50px;
+    }
+
+    .ride_text_slide {
         font-size: 50px;
     }
 

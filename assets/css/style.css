@@ -702,22 +702,23 @@ textarea.input {
 
 #page-header {
   position: relative;
-  padding: 60px 0px;
+  padding:70px 0px;
 }
 
 .header-content h1 {
-  color: #FFF;
+  color: #000;
+  font-size: 50px;
    margin-bottom: 30px;
 }
 
 .header-content .breadcrumb {
   background-color: transparent;
-  padding: 0;
-  margin: 0px;
+   
+ 
 }
 
 .header-content .breadcrumb>li a {
-  color: #FFF;
+  color: rgb(63, 63, 63);
 }
 
 .header-content .breadcrumb>li a:hover, .header-content .breadcrumb>li a:hover {

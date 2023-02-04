@@ -10,8 +10,8 @@ Vue.component('c-menu', c_menu)
 import c_footer from './components/footer.js'
 Vue.component('c-footer', c_footer)
 
-import c_oferecer from './components/oferecer.js'
-Vue.component('c-oferecer', c_oferecer)
+import c_slideprodutos from './components/c_slideprodutos.js'
+Vue.component('c-slideprodutos', c_slideprodutos)
 
 import c_sobre from './components/c_sobre.js'
 Vue.component('c-sobre', c_sobre)
@@ -41,6 +41,8 @@ import page_incendio from './view/seguranca/incendio.js'
 Vue.component('p-incendio', page_incendio)
 import page_intrusao from './view/seguranca/intrusao.js'
 Vue.component('p-intrusao', page_intrusao)
+import page_automacao from './view/seguranca/automacao.js'
+Vue.component('p-automacao', page_automacao)
 
 import page_energia from './view/energia/home.js'
 Vue.component('p-energia', page_energia)
@@ -83,6 +85,8 @@ const routes = [
     { path: '/cctv', component: { template: '<p-cctv></p-cctv>' } },
     { path: '/fire', component: { template: '<p-incendio></p-incendio>' } },
     { path: '/intrusao', component: { template: '<p-intrusao></p-intrusao>' } },
+    { path: '/automacao', component: { template: '<p-automacao></p-automacao>' } },
+    
 
      { path: '/computador', component: { template: '<p-computador></p-computador>' } },
      { path: '/solar', component: { template: '<p-energia></p-energia>' } },

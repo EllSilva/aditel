@@ -12,15 +12,19 @@ export default {
             jms7: null,
             jms8: null,
             jms9: null, 
+            jms10: null,
+            jms11: null,
+            jms12: null,
+            jms13: null, 
         }
     },
    
-     
-    mounted() {  
-      
-          
+ 
+
+    mounted() { 
+
  
     },
     
-    template: await get_template('./assets/js/view/seguranca/gps')
+    template: await get_template('./assets/js/view/seguranca/automacao')
 }
