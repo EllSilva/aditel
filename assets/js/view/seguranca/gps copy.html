@@ -32,7 +32,60 @@
 
 
 					<div class="row">
-					 
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/7gps.JPG" alt="">
+								<div class="team-desc" v-on:click="jms1 = !jms1">
+									<h4 class="mb-0">GPS Rastreador Automóvel</h4>
+									<p class="mb-1">Click aqui para Ver Descricao</p>
+								</div>
+							</div>
+
+							<div v-if="jms1" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									Desenhado para funcionar com base na rede GSM/GPRS (850/900/1800/1900MHz ) e
+									satélites GPS, este produto está habilitado para efetuar Rastreamento em tempo real,
+									localizar, bloquear, acesso ao sistema áudio, monitorar qualquer alvo remoto por SMS
+									ou via Plataforma de Gestão Profissional com acesso à internet.
+
+									Adicionalmente, quando instalado por uma equipa de verdadeiros profissionais, o
+									equipamento estará habilitado para fornecer ao usuário o sistema de alarme sonoro
+									básico anti-choque para melhor proteção da sua viatura.
+								</p>
+							</div>
+						</div>
+
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/8gps.JPG" alt="">
+								<div class="team-desc" v-on:click="jms2 = !jms2">
+									<h4 class="mb-0">Alarme Sonoro Avançado</h4>
+									<p class="mb-1">Click aqui para Ver Descricao</p>
+								</div>
+							</div>
+
+							<div v-if="jms2" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									Alarme anti-roubo, bloqueio automático de portas, bloqueio de motor via comando,
+									sensores anti-choque e muito mais. Equipamento fornecido com um comando principal e
+									outro de reserva para o seu conforto.
+								</p>
+							</div>
+						</div>
+
+
 
 						<div class="col-md-6">
 							<div class="team-card mb-5">
