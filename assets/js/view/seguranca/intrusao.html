@@ -29,88 +29,88 @@
 			<div class="row">
 				<!-- MAIN -->
 				<main id="main" class="col-md-9">
+
+
+
 					<div class="row">
-
-						<!-- article -->
 						<div class="col-md-6">
-							<div class="article">
-								<div class="article-img">
-									<a>
-										<img src="assets/img/segurança/3.JPG" alt="">
-									</a>
-								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a class="">Concertina espiral de aço galvanizado - kit
-											completo</a></h3>
-									<ul class="article-meta">
-
-
-									</ul>
-									<p> Com alta resistência contra corrosões e algumas ferramentas tradicionais por ser
-										feita de aço galvanizado.</p>
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/3.JPG" alt="">
+								<div class="team-desc" v-on:click="jms1 = !jms1">
+									<h4 class="mb-0">Concertina espiral de aço galvanizado - kit
+										completo</h4>
+									<p class="mb-1">Click aqui para Ver Descricao</p>
 								</div>
 							</div>
-						</div>
-						<!-- /article -->
 
-						<!-- article -->
-						<div class="col-md-6">
-							<div class="article">
-								<div class="article-img">
-									<a>
-										<img src="assets/img/segurança/4.JPG" alt="">
-									</a>
-								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a class="">Kit Alarme Residencial, Comercial Ecp, 10
-											Sensores, Abertura Sem Fio Coo Discadora Telefônica</a></h3>
-									<ul class="article-meta">
+							<div v-if="jms1" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
 
-
-									</ul>
-									<p>O <strong>Central de alarme ECP Max 1 com discadora incorporada para até 8
-											números telefônicos.</p>
-								</div>
+								<p>
+									Com alta resistência contra corrosões e algumas ferramentas tradicionais por ser
+									feita de aço galvanizado.
+								</p>
 							</div>
 						</div>
-						<!-- /article -->
 
-						<div class="clearfix visible-md visible-lg"></div>
 
-						<!-- article -->
 						<div class="col-md-6">
-							<div class="article">
-								<div class="article-img">
-									<a>
-										<img src="assets/img/segurança/5.JPG" alt="">
-									</a>
-								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a class="">Alarme Intelbras 01 Central Amt 2018e Ethernet
-											+ 4 Sensores Infravermelho Com Fio.</a></h3>
-									<ul class="article-meta">
-
-
-									</ul>
-									<p>Alarme residencial e comercial com 1 central AMT 2018E com módulo Ethernet.</p>
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/4.jpg" alt="">
+								<div class="team-desc" v-on:click="jms2 = !jms2">
+									<h4 class="mb-0">Kit Alarme Residencial (ECP Max 1)</h4>
+									<p class="mb-1">Click aqui para Ver Descricao</p>
 								</div>
 							</div>
+
+							<div v-if="jms2" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									Kit Alarme Residencial, Comercial Ecp, 10
+									Sensores, Abertura Sem Fio Coo Discadora Telefônica
+									<br>
+								</p>
+								<p>O Central de alarme ECP Max 1 com discadora incorporada para até 8
+									números telefônicos.</p>
+							</div>
 						</div>
-						<!-- /article -->
 
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/5.JPG" alt="">
+								<div class="team-desc" v-on:click="jms3 = !jms3">
+									<h4 class="mb-0">Alarme Intelbras</h4>
+									<p class="mb-1">Click aqui para Ver Descricao</p>
 
+								</div>
+							</div>
+							<div v-if="jms3" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
 
-						<!-- pagination
-						<div class="col-md-12">
-							<ul class="article-pagination">
-								<li class="active"><<</li>
-								
-								<li>|</li>
-								<li><a href="#">>></a></li>
-							</ul>
+								<p>
+									Alarme Intelbras 01 Central Amt 2018e Ethernet
+									+ 4 Sensores Infravermelho Com Fio.
+								</p>
+								<p>Alarme residencial e comercial com 1 central AMT 2018E com módulo Ethernet.</p>
+
+							</div>
 						</div>
-						<!-- /pagination -->
+
 					</div>
+
 				</main>
 				<!-- /MAIN -->
 
@@ -126,3 +126,5 @@
 		<!-- /container -->
 	</div>
 	<!-- /SECTION -->
+
+</div>

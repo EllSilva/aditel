@@ -27,67 +27,82 @@
 			<div class="row">
 				<!-- MAIN -->
 				<main id="main" class="col-md-9">
+					
+					
+					
 					<div class="row">
-
-						<!-- article -->
 						<div class="col-md-6">
-							<div class="article">
-								<div class="article-img">
-									<a >
-										<img src="assets/img/segurança/10f.jpg" alt="">
-									</a>
-								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a class="">Detetor De Aquecimento E Fumo</a></h3>
-									
-									<p></p>
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/10f.jpg" alt="">
+								<div class="team-desc" v-on:click="jms1 = !jms1">
+									<h4 class="mb-0">Detetor De Aquecimento E Fumo</h4>
+									<p class="mb-1">Click aqui para Ver Descricao</p>
 								</div>
 							</div>
-						</div>
-						<!-- /article -->
 
-					
+							<div v-if="jms1" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
 
-					
-
-						<!-- article -->
-						<div class="col-md-6">
-							<div class="article">
-								<div class="article-img">
-									<a >
-										<img src="assets/img/segurança/11f.jpg" alt="">
-									</a>
-								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a class="">Extintor De Incêndios</a></h3>
-									
-									<p></p>
-								</div>
+								<p>
+								 ....
+								</p>
 							</div>
 						</div>
-						<!-- /article -->
 
-						<!-- article -->
+
 						<div class="col-md-6">
-							<div class="article">
-								<div class="article-img">
-									<a >
-										<img src="assets/img/segurança/12f.jpg" alt="">
-									</a>
-								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a class="">Sistema De Estinsão De Incêndios</a></h3>
-									
-									<p></p>
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/11f.jpg" alt="">
+								<div class="team-desc" v-on:click="jms2 = !jms2">
+									<h4 class="mb-0">Extintor De Incêndios</h4>
+									<p class="mb-1">Click aqui para Ver Descricao</p>
 								</div>
 							</div>
+
+							<div v-if="jms2" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p> -.....</p>
+							</div>
 						</div>
-						<!-- /article -->
 
-					
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/12f.jpg" alt="">
+								<div class="team-desc" v-on:click="jms3 = !jms3">
+									<h4 class="mb-0">Sistema De Estinsão De Incêndios</h4>
+									<p class="mb-1">Click aqui para Ver Descricao</p>
 
-			 
+								</div>
+							</div>
+							<div v-if="jms3" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+								 </p>
+
+							</div>
+						</div>
+
 					</div>
+					
+					
+					
+					
+					
+				 
 				</main>
 				<!-- /MAIN -->
 
