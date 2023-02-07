@@ -1,4 +1,28 @@
- .letraTamanho {
+ .energia_jms {
+  background-image: url(../img/background-2e.jpg);
+}
+
+.net_jms {
+  background-image: url(../img/background-2sat.jpg);
+}
+
+.slide_jms6 {
+  background-image: url(../img/background-6gps.jpg);
+}
+
+.slide_jms5 {
+  background-image: url(../img/background-5gps.jpg);
+}
+
+.slide_jms4 {
+  background-image: url(../img/background-4gps.jpg);
+}
+
+.slide_jms3 {
+  background-image: url(../img/background-3gps.jpg);
+}
+
+.letraTamanho {
    font-size: 20px !important;
  }
 
@@ -321,6 +345,37 @@
 
 
  @media only screen and (max-width: 880px) {
+  .energia_jms {
+    background-image: url(../img/background-2e_mobile.jpg);
+  }
+  
+  .net_jms {
+    background-image: url(../img/background-2sat_mobile.jpg);
+  }
+
+  .slide_jms6 {
+    background-image: url(../img/background-6gps_mobile.jpg);
+  }
+  
+  .slide_jms5 {
+    background-image: url(../img/background-5gps_mobile.jpg);
+  }
+
+  
+.slide_jms4 {
+  background-image: url(../img/background-4gps_mobile.jpg);
+}
+
+.slide_jms3 {
+  background-image: url(../img/background-3gps_mobile.jpg);
+}
+ 
+.header-content h1 { 
+    font-size: 35px; 
+}
+
+
+
    .number-slide {
      width: 100%;
      height: 800px;

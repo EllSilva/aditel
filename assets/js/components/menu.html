@@ -52,6 +52,20 @@
 							<li><a href="#/telecomunicacao" @click="esconderMenu()">Telecomunicações</a></li>
 						 
 							<li><a href="#/logistica" @click="esconderMenu()">Logistica</a></li>
+
+
+							<li class="has-dropdown " :class="{ dropdownActive: dropActive1 }"><a @click="mostrarDop1()">Produtos</a>
+								<ul class="dropdown">
+									<li><a href="#/seguranca" @click="esconderMenu()">Segurança Patrimonial</a></li>
+									<li><a href="#/informatica&multimidia" @click="esconderMenu()">Informática / Multimídia</a></li>
+									<li><a href="#/solar" @click="esconderMenu()">Energias</a></li>
+									<li><a href="#/telecomunicacao" @click="esconderMenu()">Telecomunicações</a></li>
+								 
+									<li><a href="#/logistica" @click="esconderMenu()">Logistica</a></li>
+								</ul>
+							</li>
+
+
 						</ul>
 					</li>
 					<li class="has-dropdown" :class="{ dropdownActive: dropActive2 }"><a @click="mostrarDop2()">Área Cliente</a>
