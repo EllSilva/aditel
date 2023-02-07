@@ -1,6 +1,6 @@
 <div class="container-fluid bg-light position-relative shadow">
     <nav class="">
-		navbar-toggle-btn
+ 
         	<!-- HEADER -->
 	<header id="">
 		<!-- NAVGATION -->
@@ -45,7 +45,7 @@
 					<li> <a href="#/" @click="esconderMenu()">Home</a></li>
 					<li><a href="#/sobre" @click="esconderMenu()">Quem Somos</a></li>
 					<li class="has-dropdown " :class="{ dropdownActive: dropActive1 }"><a @click="mostrarDop1()">Produtos</a>
-						<ul class="dropdown">
+						<ul class="dropdown ">
 							<li><a href="#/seguranca" @click="esconderMenu()">Segurança Patrimonial</a></li>
 							<li><a href="#/informatica&multimidia" @click="esconderMenu()">Informática / Multimídia</a></li>
 							<li><a href="#/solar" @click="esconderMenu()">Energias</a></li>
@@ -54,8 +54,8 @@
 							<li><a href="#/logistica" @click="esconderMenu()">Logistica</a></li>
 
 
-							<li class="has-dropdown " :class="{ dropdownActive: dropActive1 }"><a @click="mostrarDop1()">Produtos</a>
-								<ul class="dropdown">
+							<li class="has-dropdown " :class="{ dropdownActive: dropActive3 }"><a @click="mostrarDop3()">Produtos</a>
+								<ul class="dropdown dropdown_sub">
 									<li><a href="#/seguranca" @click="esconderMenu()">Segurança Patrimonial</a></li>
 									<li><a href="#/informatica&multimidia" @click="esconderMenu()">Informática / Multimídia</a></li>
 									<li><a href="#/solar" @click="esconderMenu()">Energias</a></li>

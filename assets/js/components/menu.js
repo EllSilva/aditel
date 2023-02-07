@@ -6,7 +6,7 @@ export default {
             isActive: false,
             dropActive1: false,
             dropActive2: false,
-
+            dropActive3: false,
             showEsconder: false,
 
           
@@ -29,12 +29,16 @@ export default {
         mostrarDop2(type = true) {
             this.dropActive2 = (this.dropActive2 == type) ? true : type;
         },
+        mostrarDop3(type = true) {
+            this.dropActive3 = (this.dropActive3 == type) ? true : type;
+        },
 
 
         esconderMenu() {
          this.isActive = false;
          this.dropActive1 = false;
          this.dropActive2 = false;
+         this.dropActive3 = false;
         },
        
     },

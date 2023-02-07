@@ -21,9 +21,11 @@
 .slide_jms3 {
   background-image: url(../img/background-3gps.jpg);
 }
+ 
+.dropdown_sub {
+  margin-top: -20%;
+  margin-left: 250px !important;
 
-.letraTamanho {
-   font-size: 20px !important;
  }
 
  .subTamanho {
@@ -369,6 +371,13 @@
 .slide_jms3 {
   background-image: url(../img/background-3gps_mobile.jpg);
 }
+
+.dropdown_sub {
+  margin-top: 0%;
+  margin-left: 0px !important;
+
+ }
+
  
 .header-content h1 { 
     font-size: 35px; 
