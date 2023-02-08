@@ -31,8 +31,6 @@ Vue.component('p-computador', page_computador)
 import page_contacto from './view/contacto/home.js'
 Vue.component('p-contacto', page_contacto)
 
-import page_seguranca from './view/seguranca/home.js'
-Vue.component('p-seguranca', page_seguranca)
 import page_gps from './view/seguranca/gps.js'
 Vue.component('p-gps', page_gps)
 import page_cctv from './view/seguranca/cctv.js'
@@ -79,8 +77,8 @@ Vue.use(Router)
 const routes = [
     { path: '/', component: { template: '<p-home></p-home>' } },
     { path: '/sobre', component: { template: '<p-sobre></p-sobre>' } },
-    { path: '/contacto', component: { template: '<p-contacto></p-contacto>' } },
-    { path: '/seguranca', component: { template: '<p-seguranca></p-seguranca>' } },
+    { path: '/contacto', component: { template: '<p-contacto></p-contacto>' } }, 
+    
     { path: '/gps', component: { template: '<p-gps></p-gps>' } },
     { path: '/cctv', component: { template: '<p-cctv></p-cctv>' } },
     { path: '/fire', component: { template: '<p-incendio></p-incendio>' } },

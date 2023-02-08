@@ -46,24 +46,38 @@
 					<li><a href="#/sobre" @click="esconderMenu()">Quem Somos</a></li>
 					<li class="has-dropdown " :class="{ dropdownActive: dropActive1 }"><a @click="mostrarDop1()">Produtos</a>
 						<ul class="dropdown ">
-							<li><a href="#/seguranca" @click="esconderMenu()">Segurança Patrimonial</a></li>
+
+							<li class="has-dropdown " :class="{ dropdownActive: dropActive3 }"><a @click="mostrarDop3()">Segurança Patrimonial</a>
+								<ul class="dropdown dropdown_sub">
+									<li class=""><a href="#/gps"  @click="esconderMenu()"> <strong>GPS e Alarmes </strong> </a></li>
+									<li><a href="#/cctv"  @click="esconderMenu()"> <strong>CCTV</strong></a></li>
+									<li ><a href="#/intrusao" @click="esconderMenu()"><strong>Intrusão</strong></a></li>
+									<li><a href="#/fire"  @click="esconderMenu()"> <strong>Incêndios</strong></a></li>
+									<li><a href="#/automacao"  @click="esconderMenu()"> <strong>Automação Residencial  </strong></a></li>
+
+								</ul>
+							</li>
+
+							<li class="has-dropdown " :class="{ dropdownActive: dropActive4 }"><a @click="mostrarDop4()">Informática / Multimídia</a>
+								<ul class="dropdown dropdown_sub">
+									<li class=""><a href="#/computador"  @click="esconderMenu()"> <strong>Computadores</strong> </a></li>
+									<li><a href="#/tv"  @click="esconderMenu()"> <strong>TV</strong></a></li>
+									<li ><a href="#/telefone" @click="esconderMenu()"><strong>Telefone</strong></a></li>
+									<li><a href="#/monitores"  @click="esconderMenu()"> <strong>Monitores</strong></a></li>
+									<li><a href="#/cabos"  @click="esconderMenu()"> <strong>Cabos</strong></a></li>
+									<li><a href="#/store"  @click="esconderMenu()"> <strong>Armazenagem</strong></a></li>
+									<li><a href="#/audio"  @click="esconderMenu()"> <strong>Microfones Audio</strong></a></li>
+									<li><a href="#/ahdsolu"  @click="esconderMenu()"> <strong>Microfones Audio</strong></a></li>
+								</ul>
+							</li>
+
+
 							<li><a href="#/informatica&multimidia" @click="esconderMenu()">Informática / Multimídia</a></li>
 							<li><a href="#/solar" @click="esconderMenu()">Energias</a></li>
 							<li><a href="#/telecomunicacao" @click="esconderMenu()">Telecomunicações</a></li>
 						 
 							<li><a href="#/logistica" @click="esconderMenu()">Logistica</a></li>
 
-
-							<li class="has-dropdown " :class="{ dropdownActive: dropActive3 }"><a @click="mostrarDop3()">Produtos</a>
-								<ul class="dropdown dropdown_sub">
-									<li><a href="#/seguranca" @click="esconderMenu()">Segurança Patrimonial</a></li>
-									<li><a href="#/informatica&multimidia" @click="esconderMenu()">Informática / Multimídia</a></li>
-									<li><a href="#/solar" @click="esconderMenu()">Energias</a></li>
-									<li><a href="#/telecomunicacao" @click="esconderMenu()">Telecomunicações</a></li>
-								 
-									<li><a href="#/logistica" @click="esconderMenu()">Logistica</a></li>
-								</ul>
-							</li>
 
 
 						</ul>

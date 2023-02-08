@@ -97,6 +97,25 @@
   background-color: #f5f5f5;
 }
 
+.whatsapp_link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  color: #fff;
+  background-color: #25d366;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+box-shadow: 1px 1px 2px #888;
+z-index: 1000;
+ 
+}
+
+.fa-whatsapp{
+  margin-top: 16px;
+}
  
  
   
@@ -374,7 +393,7 @@
 
 .dropdown_sub {
   margin-top: 0%;
-  margin-left: 0px !important;
+  margin-left: 25px !important;
 
  }
 
