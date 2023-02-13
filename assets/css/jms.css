@@ -299,6 +299,15 @@ input.email-bt::placeholder {
      border-bottom: 1px solid #000;
 }
 
+.ride_text2{
+     width: 50%;
+     padding-top: 10px;
+     text-align: center;
+     color: #2b3436;
+     font-size: 30px;
+     margin-left: 0px;
+     border: 1px solid #000;
+}
 
  
 .ride_text_slide{
@@ -352,12 +361,16 @@ input.email-bt::placeholder {
     text-align: center;
     padding: 10px 0px;
     margin-top: 30px;
+     
+    position: relative;
+    display: inline-block; 
+    z-index: 1; 
 }
 
 .book_bt a{ color:#fefefe; }
 .book_bt a:hover{     
     color: #fff;
-    background: #000;
+    background: #ca9100;
 
 }
 
@@ -388,12 +401,16 @@ input.email-bt::placeholder {
     text-align: center;
     padding: 10px 0px;
     margin-top: 30px;
+ 
+    position: relative;
+    display: inline-block; 
+    z-index: 1;
 }
 
 .book_bt_2 a{ color:#fefefe; }
 .book_bt_2 a:hover {
     color: #fff;
-    background: #000;
+    background: #ca9100;
 }
 
 .location_sectin {

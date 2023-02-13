@@ -18,7 +18,13 @@ Vue.component('c-sobre', c_sobre)
 
 import c_outracat from './components/c_outracat.js'
 Vue.component('c-outracategoria', c_outracat)
+ 
+import c_acessorios from './components/c_acessorios.js'
+Vue.component('c-acessorios', c_acessorios)
 
+import page_acessorios from './view/info_mult/acessorios.js'
+Vue.component('p-acessorios', page_acessorios)
+ 
 import page_home from './view/home/home.js'
 Vue.component('p-home', page_home)
 
@@ -48,30 +54,13 @@ Vue.component('p-energia', page_energia)
 import page_internet from './view/internet/home.js'
 Vue.component('p-internet', page_internet)
 
-import page_info_mult from './view/info_mult/home.js'
-Vue.component('p-info_mult', page_info_mult)
- 
-import page_cabos from './view/info_mult/cabos.js'
-Vue.component('p-cabos', page_cabos)
-import page_monitores from './view/info_mult/monitores.js'
-Vue.component('p-monitores', page_monitores)
-import page_armazenagem from './view/info_mult/armazenagem.js'
-Vue.component('p-armazenagem', page_armazenagem)
-import page_alimentacao from './view/info_mult/alimentacao.js'
-Vue.component('p-alimentacao', page_alimentacao)
-import page_audio from './view/info_mult/audio.js'
-Vue.component('p-audio', page_audio)
-import page_ahdsolu from './view/info_mult/ahdsolu.js'
-Vue.component('p-ahdsolu', page_ahdsolu)
+
 
 import page_tv from './view/info_mult/tv.js'
 Vue.component('p-tv', page_tv)
 import page_telefone from './view/info_mult/telefone.js'
 Vue.component('p-telefone', page_telefone)
-
-import page_logistica from './view/logistica/home.js'
-Vue.component('p-logistica', page_logistica)
-
+ 
 Vue.use(Router)
 
 const routes = [
@@ -84,23 +73,16 @@ const routes = [
     { path: '/fire', component: { template: '<p-incendio></p-incendio>' } },
     { path: '/intrusao', component: { template: '<p-intrusao></p-intrusao>' } },
     { path: '/automacao', component: { template: '<p-automacao></p-automacao>' } },
-    
-
-     { path: '/computador', component: { template: '<p-computador></p-computador>' } },
+     
      { path: '/solar', component: { template: '<p-energia></p-energia>' } },
      { path: '/telecomunicacao', component: { template: '<p-internet></p-internet>' } },
+ 
+     { path: '/acessorios', component: { template: '<p-acessorios></p-acessorios>' } },
 
-     { path: '/informatica&multimidia', component: { template: '<p-info_mult></p-info_mult>' } },
-     { path: '/cabos', component: { template: '<p-cabos></p-cabos>' } },
-     { path: '/monitores', component: { template: '<p-monitores></p-monitores>' } },
-     { path: '/store', component: { template: '<p-armazenagem></p-armazenagem>' } },
-     { path: '/alime', component: { template: '<p-alimentacao></p-alimentacao>' } },
-     { path: '/audio', component: { template: '<p-audio></p-audio>' } },
-     { path: '/ahdsolu', component: { template: '<p-ahdsolu></p-ahdsolu>' } },
-
+     { path: '/computador', component: { template: '<p-computador></p-computador>' } },
      { path: '/telefone', component: { template: '<p-telefone></p-telefone>' } },
      { path: '/tv', component: { template: '<p-tv></p-tv>' } },
-     { path: '/logistica', component: { template: '<p-logistica></p-logistica>' } },
+     
    
 ]
 

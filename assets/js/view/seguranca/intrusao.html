@@ -7,9 +7,7 @@
 		<c-slideprodutos></c-slideprodutos>
 
 		<div class="submenupro header-content">
-			<ul class="breadcrumb container">
-				<li> <a href="#/seguranca"><strong>Segurança Patrimonial</strong> </li>
-
+			<ul class="breadcrumb container"> 
 				<li><a href="#/gps"> <strong>GPS</strong> </a></li>
 				<li><a href="#/cctv"><strong>CCTV</strong></a></li>
 				<li class="active"><strong>Intrusão</strong></a></li>
@@ -37,8 +35,9 @@
 							<div class="team-card mb-5">
 								<img class="img-fluid" src="assets/img/seguranca/18.jpg" alt="">
 								<div class="team-desc" v-on:click="jms1 = !jms1">
-									<h4 class="mb-0">Energizador ( Wizord )</h4>
-									<p class="mb-1">Click aqui para Ver Descricao</p>
+									<h4 class="mb-0">Energizador para Cerca Elétrica( Wizord )</h4>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms1"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
 								</div>
 							</div>
 
@@ -54,34 +53,15 @@
 							</div>
 						</div>
 
-						<div class="col-md-6">
-							<div class="team-card mb-5">
-								<img class="img-fluid" src="assets/img/seguranca/19.jpg" alt="">
-								<div class="team-desc" v-on:click="jms2 = !jms2">
-									<h4 class="mb-0">Cerca Elétrica</h4>
-									<p class="mb-1">Click aqui para Ver Descricao</p>
-								</div>
-							</div>
-
-							<div v-if="jms2" class="descicao">
-								<p>
-									<strong>
-										Descrição
-									</strong>
-								</p>
-
-								<p>
-
-								</p>
-							</div>
-						</div>
+					 
 					  
 						<div class="col-md-6">
 							<div class="team-card mb-5">
 								<img class="img-fluid" src="assets/img/seguranca/5.JPG" alt="">
 								<div class="team-desc" v-on:click="jms3 = !jms3">
 									<h4 class="mb-0">Alarme Intelbras</h4>
-									<p class="mb-1">Click aqui para Ver Descricao</p>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms3"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
 
 								</div>
 							</div>

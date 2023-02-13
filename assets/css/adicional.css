@@ -48,6 +48,13 @@
 
  }
 
+ .Icon_kim { 
+  padding-left: 40%; 
+  margin-top: -9%;
+  font-size: 30px;
+  position: absolute;
+}
+
  .content-top {
    margin-top: 10%;
    width: 350px;
@@ -96,6 +103,16 @@
  .submenupro {
   background-color: #f5f5f5;
 }
+ 
+.submenuacess {
+   
+  border-bottom: #21405e;
+  border-radius: 50px;
+  box-shadow: 1px 1px 2px #888;
+  width: 300px; 
+  padding-left: 5%;
+
+}
 
 .whatsapp_link {
   position: fixed;
@@ -117,6 +134,9 @@ z-index: 1000;
   margin-top: 16px;
 }
  
+.espaco_cima{
+  margin-top: 116px;
+}
  
   
  /*============================
@@ -127,7 +147,7 @@ z-index: 1000;
  }
 
  .team-card:hover .team-desc {
-   height: 100px;
+   height: 70px;
  }
 
  .team-card:hover .team-desc .team-social-links {

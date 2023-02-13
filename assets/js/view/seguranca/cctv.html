@@ -1,25 +1,28 @@
 <div class="port_baixo">
-	 
+
 	<!-- Page Header -->
 
-<!-- Page Header -->
-<div>
-	<c-slideprodutos></c-slideprodutos>
-</div>
+	<!-- Page Header -->
+	<div>
+		<c-slideprodutos></c-slideprodutos>
+	</div>
 
- 
-<div class="submenupro header-content" > 
-	<ul class="breadcrumb container"> 
-		<li> <a href="#/seguranca"><strong>Segurança Patrimonial</strong> </li>
+	<div class="submenupro header-content">
+		<ul class="breadcrumb container">
 
 			<li><a href="#/gps"> <strong>GPS</strong> </a></li>
 			<li class="active"> <strong>CCTV</strong></a></li>
-		<li><a href="#/intrusao"><strong>Intrusão</strong></a></li>
-		<li><a href="#/fire"><strong>Incêndios</strong></a></li>
-		<li><a href="#/automacao"> <strong>Automação Residencial  </strong></a></li>
-	</ul>
-</div>
-  
+			<li><a href="#/intrusao"><strong>Intrusão</strong></a></li>
+			<li><a href="#/fire"><strong>Incêndios</strong></a></li>
+			<li><a href="#/automacao"> <strong>Automação Residencial </strong></a></li>
+		</ul>
+	</div>
+
+	<div class="submenuacess">
+		<ul class="breadcrumb container"> 
+			<li><a href="#/acessorios"> <strong>Seus Acessorios</strong> </a></li> 
+		</ul>
+	</div> 
 	<!-- /Page Header -->
 
 	<!-- SECTION -->
@@ -30,328 +33,326 @@
 			<div class="row">
 				<!-- MAIN -->
 				<main id="main" class="col-md-9">
-
-
-
-
-					
-
-					 
-
-
-					
-				<div class="row"> 
-					<div class="col-md-6">
-						<div class="team-card mb-5">
-							<img class="img-fluid" src="assets/img/seguranca/1.JPG" alt="">
-							<div class="team-desc" v-on:click="jms1 = !jms1">
-								<h4 class="mb-0">CCTV AHD 4 CANAIS (KIT)</h4>
-								<p class="mb-1">Click aqui para Ver Descricao</p>
-							</div>
-						</div>
-
-						<div v-if="jms1" class="descicao">
-							<p>
-								<strong>
-									Descrição
-								</strong>
-							</p>
-
-							<p>
-								O Kit Monitoramento Com 4 Câmeras Full HD 2.0
-								MP, 42 Leds Infravermelho, DVR Stand Alone 4 Canais
-								<br>
-								 conta também com a tecnologia hibrida 4
-								em 1 (ahd, tvi, analógica,tvi), com blindagem contra o tempo ela pode ser
-								instalada em ambientes interni e externis.
-							</p>
-						</div>
-					</div>
  
-					<div class="col-md-6">
-						<div class="team-card mb-5">
-							<img class="img-fluid" src="assets/img/seguranca/2.jpg" alt="">
-							<div class="team-desc" v-on:click="jms2 = !jms2">
-								<h4 class="mb-0">Camera IPC 2MP</h4> 
-								<p class="mb-1">Click aqui para Ver Descricao</p>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/1.JPG" alt="">
+								<div class="team-desc" v-on:click="jms1 = !jms1">
+									<h4 class="mb-0">CCTV AHD 4 CANAIS (KIT)</h4>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms1"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
+								</div>
+							</div>
+
+							<div v-if="jms1" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									O Kit Monitoramento Com 4 Câmeras Full HD 2.0
+									MP, 42 Leds Infravermelho, DVR Stand Alone 4 Canais
+									<br>
+									conta também com a tecnologia hibrida 4
+									em 1 (ahd, tvi, analógica,tvi), com blindagem contra o tempo ela pode ser
+									instalada em ambientes interni e externis.
+								</p>
 							</div>
 						</div>
-						
-						<div v-if="jms2" class="descicao">
-							<p>
-								<strong>
-									Descrição 
-								</strong>
-							</p>
 
-							<p>
-								Ip Camera 2.0mp, Visão Nocturna, 20-30
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/2.jpg" alt="">
+								<div class="team-desc" v-on:click="jms2 = !jms2">
+									<h4 class="mb-0">Camera IPC 2MP</h4>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms2"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
+								</div>
+							</div>
+
+							<div v-if="jms2" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									Ip Camera 2.0mp, Visão Nocturna, 20-30
 									Metros.
-							</p>
-						</div>
-					</div>
-  
-					<div class="col-md-6">
-						<div class="team-card mb-5">
-							<img class="img-fluid" src="assets/img/seguranca/6cctv.jpg" alt="">
-							<div class="team-desc" v-on:click="jms3 = !jms3">
-								<h4 class="mb-0">Camera PTZ</h4>
-									<p class="mb-1">Click aqui para Ver Descricao</p>
-							 
-							</div>
-						</div>
-						<div v-if="jms3" class="descicao">
-							<p>
-								<strong>
-									Descrição
-								</strong>
-							</p>
-
-							<p>
-								Rotativa 360º, 2.0 MP e visão novturna, 100 M
-							</p>
-						</div>
-					</div>
-	    
-					<div class="col-md-6">
-						<div class="team-card mb-5">
-							<img class="img-fluid" src="assets/img/seguranca/17.jpg" alt="">
-							<div class="team-desc" v-on:click="jms4 = !jms4">
-								<h4 class="mb-0">PTZ POE Camera 2.0MP</h4>
-								<p class="mb-1">Click aqui para Ver Descricao</p>
+								</p>
 							</div>
 						</div>
 
-						<div v-if="jms4" class="descicao">
-							<p>
-								<strong>
-									Descrição
-								</strong>
-							</p>
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/6cctv.jpg" alt="">
+								<div class="team-desc" v-on:click="jms3 = !jms3">
+									<h4 class="mb-0">Camera PTZ</h4>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms3"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
 
-							<p>
-								....
-							</p>
-						</div>
+								</div>
+							</div>
+							<div v-if="jms3" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
 
-					</div>
-
-					
-					<div class="col-md-6">
-						<div class="team-card mb-5">
-							<img class="img-fluid" src="assets/img/seguranca/8.jpg" alt="">
-							<div class="team-desc" v-on:click="jms5 = !jms5">
-								<h4 class="mb-0">Camera AHD 2MP</h4>
-									<p class="mb-1">Click aqui para Ver Descricao</p>
-							 
+								<p>
+									Rotativa 360º, 2.0 MP e visão novturna, 100 M
+								</p>
 							</div>
 						</div>
-						<div v-if="jms5" class="descicao">
-							<p>
-								<strong>
-									Descrição
-								</strong>
-							</p>
 
-							<p>
-								AHD 2.0MP Mini, CIFSA42, IR 12 LEDS, Visão
-								Nocturna 10M
-							</p>
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/17.jpg" alt="">
+								<div class="team-desc" v-on:click="jms4 = !jms4">
+									<h4 class="mb-0">PTZ POE Camera 2.0MP</h4>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms4"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
+								</div>
+							</div>
+
+							<div v-if="jms4" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									....
+								</p>
+							</div>
+
 						</div>
-					</div>
- 
-					<div class="col-md-6">
-						<div class="team-card mb-5">
-							<img class="img-fluid" src="assets/img/seguranca/9.jpg" alt="">
-							<div class="team-desc" v-on:click="jms6 = !jms6">
-								<h4 class="mb-0">Camera 1MP (Starlight)</h4>
-									<p class="mb-1">Click aqui para Ver Descricao</p>
-							 
+
+
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/8.jpg" alt="">
+								<div class="team-desc" v-on:click="jms5 = !jms5">
+									<h4 class="mb-0">Camera AHD 2MP</h4>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms5"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
+
+								</div>
+							</div>
+							<div v-if="jms5" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									AHD 2.0MP Mini, CIFSA42, IR 12 LEDS, Visão
+									Nocturna 10M
+								</p>
 							</div>
 						</div>
-						<div v-if="jms6" class="descicao">
-							<p>
-								<strong>
-									Descrição
-								</strong>
-							</p>
 
-							<p>
-								AHD 700TVL Camera, CIFSA58.5, Starlight, Visão
-								Noctura 20-30M
-							</p>
-						</div>
-					</div>
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/9.jpg" alt="">
+								<div class="team-desc" v-on:click="jms6 = !jms6">
+									<h4 class="mb-0">Camera 1MP (Starlight)</h4>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms6"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
+								</div>
+							</div>
+							<div v-if="jms6" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
 
-
-					
-					<div class="col-md-6">
-						<div class="team-card mb-5">
-							<img class="img-fluid" src="assets/img/seguranca/10.jpg" alt="">
-							<div class="team-desc" v-on:click="jms7 = !jms7">
-								<h4 class="mb-0"> Camera AHD Bullet</h4>
-									<p class="mb-1">Click aqui para Ver Descricao</p>
-							 
+								<p>
+									AHD 700TVL Camera, CIFSA58.5, Starlight, Visão
+									Noctura 20-30M
+								</p>
 							</div>
 						</div>
-						<div v-if="jms7" class="descicao">
-							<p>
-								<strong>
-									Descrição
-								</strong>
-							</p>
 
-							<p>
-								AHD Camera Exterior, REF51, IR SMDLED 18,
-								Visão Noctura 30M
-							</p>
-						</div>
-					</div>
 
-					
-					<div class="col-md-6">
-						<div class="team-card mb-5">
-							<img class="img-fluid" src="assets/img/seguranca/11.jpg" alt="">
-							<div class="team-desc" v-on:click="jms8 = !jms8">
-								<h4 class="mb-0">Camera Oculta AHG</h4>
-									<p class="mb-1">Click aqui para Ver Descricao</p>
-							 
+
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/10.jpg" alt="">
+								<div class="team-desc" v-on:click="jms7 = !jms7">
+									<h4 class="mb-0"> Camera AHD Bullet</h4>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms7"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
+								</div>
+							</div>
+							<div v-if="jms7" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									AHD Camera Exterior, REF51, IR SMDLED 18,
+									Visão Noctura 30M
+								</p>
 							</div>
 						</div>
-						<div v-if="jms8" class="descicao">
-							<p>
-								<strong>
-									Descrição
-								</strong>
-							</p>
-
-							<p>
-								AHD 700TVL mini, CIFSA57, Plastico, Lentes
-								3.7mm, Visão Nocturna 10M
-							</p>
-						</div>
-					</div>
 
 
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/11.jpg" alt="">
+								<div class="team-desc" v-on:click="jms8 = !jms8">
+									<h4 class="mb-0">Camera Oculta AHG</h4>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms8"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
+								</div>
+							</div>
+							<div v-if="jms8" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
 
-
-					<div class="col-md-6">
-						<div class="team-card mb-5">
-							<img class="img-fluid" src="assets/img/seguranca/12.jpg" alt="">
-							<div class="team-desc" v-on:click="jms9 = !jms9">
-								<h4 class="mb-0">Camera Dome ANPR 2MB</h4>
-									<p class="mb-1">Click aqui para Ver Descricao</p> 
+								<p>
+									AHD 700TVL mini, CIFSA57, Plastico, Lentes
+									3.7mm, Visão Nocturna 10M
+								</p>
 							</div>
 						</div>
-						<div v-if="jms9" class="descicao">
-							<p>
-								<strong>
-									Descrição
-								</strong>
-							</p>
 
-							<p>
-								IPC 2.0MP, ANPR 4IRLEDS, Metalica, CIFSA252,
-								ANPRLentes VF 9-22mm, Visão Noctura 60M
-							</p>
-						</div>
-					</div>
 
-					<div class="col-md-6">
-						<div class="team-card mb-5">
-							<img class="img-fluid" src="assets/img/seguranca/13.jpg" alt="">
-							<div class="team-desc" v-on:click="jms10 = !jms10">
-								<h4 class="mb-0">Camera IPC 2MB Varofocal</h4>
-									<p class="mb-1">Click aqui para Ver Descricao</p> 
+
+
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/12.jpg" alt="">
+								<div class="team-desc" v-on:click="jms9 = !jms9">
+									<h4 class="mb-0">Camera Dome ANPR 2MB</h4>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms9"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
+								</div>
+							</div>
+							<div v-if="jms9" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									IPC 2.0MP, ANPR 4IRLEDS, Metalica, CIFSA252,
+									ANPRLentes VF 9-22mm, Visão Noctura 60M
+								</p>
 							</div>
 						</div>
-						<div v-if="jms10" class="descicao">
-							<p>
-								<strong>
-									Descrição
-								</strong>
-							</p>
 
-							<p>
-								IPC 2.0MP, Dome Metalica, CIFSA177, VF
-								2.8-12mm, Visao Nocturna 30M
-							</p>
-						</div>
-					</div>
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/13.jpg" alt="">
+								<div class="team-desc" v-on:click="jms10 = !jms10">
+									<h4 class="mb-0">Camera IPC 2MB Varofocal</h4>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms10"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
+								</div>
+							</div>
+							<div v-if="jms10" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
 
-
-					
-					<div class="col-md-6">
-						<div class="team-card mb-5">
-							<img class="img-fluid" src="assets/img/seguranca/14.jpg" alt="">
-							<div class="team-desc" v-on:click="jms11 = !jms11">
-								<h4 class="mb-0">Camera IPC Bullet 2MB</h4>
-									<p class="mb-1">Click aqui para Ver Descricao</p>
-							 
+								<p>
+									IPC 2.0MP, Dome Metalica, CIFSA177, VF
+									2.8-12mm, Visao Nocturna 30M
+								</p>
 							</div>
 						</div>
-						<div v-if="jms11" class="descicao">
-							<p>
-								<strong>
-									Descrição
-								</strong>
-							</p>
-							<p>
-								IPC 2.0MP, Metalica, CIFSA70, Lentes 36mm, IR
-											18SMD, Visão Nocturna 30M
-							</p>
-						</div>
-					</div>
 
-					<div class="col-md-6">
-						<div class="team-card mb-5">
-							<img class="img-fluid" src="assets/img/seguranca/15.jpg" alt="">
-							<div class="team-desc" v-on:click="jms12 = !jms12">
-								<h4 class="mb-0">Camera AHD 4 Canais</h4>
-									<p class="mb-1">Click aqui para Ver Descricao</p>
-							 
+
+
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/14.jpg" alt="">
+								<div class="team-desc" v-on:click="jms11 = !jms11">
+									<h4 class="mb-0">Camera IPC Bullet 2MB</h4>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms11"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
+
+								</div>
+							</div>
+							<div v-if="jms11" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+								<p>
+									IPC 2.0MP, Metalica, CIFSA70, Lentes 36mm, IR
+									18SMD, Visão Nocturna 30M
+								</p>
 							</div>
 						</div>
-						<div v-if="jms12" class="descicao">
-							<p>
-								<strong>
-									Descrição
-								</strong>
-							</p>
 
-							<p>
-								KIT 4 2.0MP, DVR Metalico
-							</p>
-						</div>
-					</div>
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/15.jpg" alt="">
+								<div class="team-desc" v-on:click="jms12 = !jms12">
+									<h4 class="mb-0">Camera AHD 4 Canais</h4>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms12"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
+								</div>
+							</div>
+							<div v-if="jms12" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
 
-					
-					<div class="col-md-6">
-						<div class="team-card mb-5">
-							<img class="img-fluid" src="assets/img/seguranca/16.jpg" alt="">
-							<div class="team-desc" v-on:click="jms13 = !jms13">
-								<h4 class="mb-0"> CCTV 8 Canais AHD</h4>
-									<p class="mb-1">Click aqui para Ver Descricao</p>
-							 
+								<p>
+									KIT 4 2.0MP, DVR Metalico
+								</p>
 							</div>
 						</div>
-						<div v-if="jms13" class="descicao">
-							<p>
-								<strong>
-									Descrição
-								</strong>
-							</p>
 
-							<p>
-								KIT 8 2.0MP, DVR Metalico
-							</p>
+
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/seguranca/16.jpg" alt="">
+								<div class="team-desc" v-on:click="jms13 = !jms13">
+									<h4 class="mb-0"> CCTV 8 Canais AHD</h4>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms13"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
+
+								</div>
+							</div>
+							<div v-if="jms13" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									KIT 8 2.0MP, DVR Metalico
+								</p>
+							</div>
 						</div>
+
+
 					</div>
-
-			 
-				</div>
-
-
  
 				</main>
 				<!-- /MAIN -->

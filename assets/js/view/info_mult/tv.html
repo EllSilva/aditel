@@ -33,26 +33,30 @@
 				<!-- MAIN -->
 				<main id="main" class="col-md-9">
 					<div class="row">
-
-						<!-- article -->
 						<div class="col-md-6">
-							<div class="article">
-								<div class="article-img">
-									<a >
-										<img src="assets/img/diversos/1.jpg" alt="">
-									</a>
-								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a>SMART TV SAMSUNG</a></h3>
-									<ul class="article-meta">
-								
-										
-									</ul>
-									<p>75" Smart 4K Ultra HD QLED TV</p>
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/diversos/1.jpg" alt="">
+								<div class="team-desc" v-on:click="jms1 = !jms1">
+									<h4 class="mb-0">SMART TV SAMSUNG</h4>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms1"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
 								</div>
 							</div>
+
+							<div v-if="jms1" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>
+									75" Smart 4K Ultra HD QLED TV
+                                </p>
+							</div>
 						</div>
-						<!-- /article -->
+
+					 
  
  
 					</div>

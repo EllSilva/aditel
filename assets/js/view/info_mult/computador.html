@@ -32,94 +32,100 @@
             <div class="row">
                 <!-- MAIN -->
                 <main id="main" class="col-md-9">
-                    <div class="row">
 
-                        <!-- article -->
-                        <div class="col-md-6">
-                            <div class="article">
-                                <div class="article-img">
-                                    <a>
-                                        <img src="assets/img/computador/1.JPG" alt="">
-                                    </a>
-                                </div>
-                                <div class="article-content">
-                                    <h3 class="article-title"><a>PC Portátil DELL</a></h3>
-                                    <ul class="article-meta">
+                    
+					<div class="row">
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/computador/1.JPG" alt="">
+								<div class="team-desc" v-on:click="jms1 = !jms1">
+									<h4 class="mb-0">PC Portátil DELL</h4>
+                                    <i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms1"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
+								</div>
+							</div>
 
+							<div v-if="jms1" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
 
-                                    </ul>
-                                    <p>Caracteristicas Principais:
+								<p>
+									Caracteristicas Principais:
                                         Processador 1.6 GHz Intel Quad-Core, i5
                                         Memória RAM 8GB
                                         Disco Rigido: 1 TB
                                         Monitor 13.3"  FULL HD
                                         Sistema Operativo: Windows 10
                                         Portas WLAN, Bluetooth, USB. HDMI
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /article -->
+                                </p>
+							</div>
+						</div>
 
-                        <!-- article -->
-                        <div class="col-md-6">
-                            <div class="article">
-                                <div class="article-img">
-                                    <a>
-                                        <img src="assets/img/computador/2.JPG" alt="">
-                                    </a>
-                                </div>
-                                <div class="article-content">
-                                    <h3 class="article-title"><a>PC POS</a></h3>
-                                    <ul class="article-meta">
+					 
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/computador/2.JPG" alt="">
+								<div class="team-desc" v-on:click="jms2 = !jms2">
+									<h4 class="mb-0">PC POS</h4>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms2"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
 
+								</div>
+							</div>
+							<div v-if="jms2" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
 
-                                    </ul>
-                                    <p>Caracteristicas Principais:
-                                        Memória: 2GB
-                                        Disco Rigido: 32GB
-                                        Monitor: 15" 
-                                        Portas : LAN, HDMI, USB
-                                        CPU: Intel Celeron
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /article -->
+								<p>
+                                    Caracteristicas Principais:
+                                    Memória: 2GB
+                                    Disco Rigido: 32GB
+                                    Monitor: 15" 
+                                    Portas : LAN, HDMI, USB
+                                    CPU: Intel Celeron
+                                </p>
 
-                        <div class="clearfix visible-md visible-lg"></div>
+							</div>
+						</div>
+					  
+						<div class="col-md-6">
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/computador/3.JPG" alt="">
+								<div class="team-desc" v-on:click="jms3 = !jms3">
+									<h4 class="mb-0">PC SERVIDOR</h4>
+                                    <i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms3"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
 
-                        <!-- article -->
-                        <div class="col-md-6">
-                            <div class="article">
-                                <div class="article-img">
-                                    <a>
-                                        <img src="assets/img/computador/3.JPG" alt="">
-                                    </a>
-                                </div>
-                                <div class="article-content">
-                                    <h3 class="article-title"><a>PC SERVIDOR</a></h3>
-                                    <ul class="article-meta">
+								</div>
+							</div>
+							<div v-if="jms3" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
 
+								<p>
+                                    Processador: 2 x 2.93Ghz X5670 Xeon Six Core
+                                    Memória 2GB ( 48GB Total )
+                                    Discos Rigidos: 6 x 2TB 7.2K SATA 3.5" 3GB/s
+                                    Energia 2 x 870W
+                                    Portas LAN 4 x Gigabit Ethernet
+                                    Leitor Discos DVD-ROM
+                                    Software Nao Incluido
+                                </p>
 
-                                    </ul>
-                                    <p>Processador: 2 x 2.93Ghz X5670 Xeon Six Core
-                                        Memória 2GB ( 48GB Total )
-                                        Discos Rigidos: 6 x 2TB 7.2K SATA 3.5" 3GB/s
-                                        Energia 2 x 870W
-                                        Portas LAN 4 x Gigabit Ethernet
-                                        Leitor Discos DVD-ROM
-                                        Software Nao Incluido
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /article -->
+							</div>
+						</div>
 
-
-
-
-                    </div>
+					</div>
+ 
                 </main>
                 <!-- /MAIN -->
 

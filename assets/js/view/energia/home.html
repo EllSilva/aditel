@@ -2,11 +2,9 @@
 
  	<!-- Page Header -->
      <div id="page-header">
-        <!-- section background -->
+   
         <div class="section-bg energia_jms"></div>
-        <!-- /section background -->
-
-        <!-- page header content -->
+    
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -22,7 +20,7 @@
                 </div>
             </div>
         </div>
-        <!-- /page header content -->
+        
     </div>
     <!-- /Page Header -->
 
@@ -43,7 +41,8 @@
 								<img class="img-fluid" src="assets/img/solar/1.JPG" alt="">
 								<div class="team-desc" v-on:click="jms1 = !jms1">
 									<h4 class="mb-0">TRUNSUN</h4>
-									<p class="mb-1">Click aqui para Ver Descrição</p>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms1"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
 								</div>
 							</div>
 
@@ -66,7 +65,8 @@
 								<img class="img-fluid" src="assets/img/solar/5.png" alt="">
 								<div class="team-desc" v-on:click="jms2 = !jms2">
 									<h4 class="mb-0">aps yc1000-3</h4> 
-									<p class="mb-1">Click aqui para Ver Descrição</p>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms2"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
 								</div>
 							</div>
 							
@@ -90,8 +90,8 @@
 								<img class="img-fluid" src="assets/img/solar/6.jpg" alt="">
 								<div class="team-desc" v-on:click="jms3 = !jms3">
 									<h4 class="mb-0">Regulador Automático de Tensão AVR4KVA</h4>
-										<p class="mb-1">Click aqui para Ver Descrição</p>
-								 
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms3"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
 								</div>
 							</div>
 							<div v-if="jms3" class="descicao">
@@ -111,8 +111,8 @@
 								<img class="img-fluid" src="assets/img/solar/7.jpg" alt="">
 								<div class="team-desc" v-on:click="jms4 = !jms4">
 									<h4 class="mb-0">Painel Solar 450W</h4>
-										<p class="mb-1">Click aqui para Ver Descrição</p>
-								 
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms4"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
 								</div>
 							</div>
 							<div v-if="jms4" class="descicao">
@@ -133,8 +133,8 @@
 								<img class="img-fluid" src="assets/img/solar/8.jpg" alt="">
 								<div class="team-desc" v-on:click="jms5 = !jms5">
 									<h4 class="mb-0">Inversor Solar 5Kva</h4>
-										<p class="mb-1">Click aqui para Ver Descrição</p>
-								 
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms5"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
 								</div>
 							</div>
 							<div v-if="jms5" class="descicao">
@@ -155,8 +155,8 @@
 								<img class="img-fluid" src="assets/img/solar/9.jpg" alt="">
 								<div class="team-desc" v-on:click="jms6 = !jms6">
 									<h4 class="mb-0">Bateria Solar 12V 200Ah</h4>
-										<p class="mb-1">Click aqui para Ver Descrição</p>
-								 
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms6"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
 								</div>
 							</div>
 							<div v-if="jms6" class="descicao">
@@ -176,8 +176,8 @@
 								<img class="img-fluid" src="assets/img/solar/10.jpg" alt="">
 								<div class="team-desc" v-on:click="jms7 = !jms7">
 									<h4 class="mb-0">Bateria Solar 12V 300Ah</h4>
-										<p class="mb-1">Click aqui para Ver Descrição</p>
-								 
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms7"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
 								</div>
 							</div>
 							<div v-if="jms7" class="descicao">

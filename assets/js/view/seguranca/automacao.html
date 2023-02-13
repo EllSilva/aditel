@@ -9,9 +9,7 @@
 
 
 	<div class="submenupro header-content">
-		<ul class="breadcrumb container">
-			<li> <a href="#/seguranca"><strong>Segurança Patrimonial</strong> </li>
-
+		<ul class="breadcrumb container"> 
 			<li><a href="#/gps"> <strong>GPS</strong> </a></li>
 			<li><a href="#/cctv"> <strong> CCTV </strong></a></li>
 			<li><a href="#/intrusao"><strong>Intrusão</strong></a></li>
@@ -37,7 +35,8 @@
 								<img class="img-fluid" src="assets/img/seguranca/auto1.jpg" alt="">
 								<div class="team-desc" v-on:click="jms1 = !jms1">
 									<h4 class="mb-0">Motor Deslizante ( Centurion )</h4>
-									<p class="mb-1">Click aqui para Ver Descrição</p>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms1"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
 								</div>
 							</div>
 
@@ -69,13 +68,14 @@
 						<div class="col-md-6">
 							<div class="team-card mb-5">
 								<img class="img-fluid" src="assets/img/seguranca/auto2.jpg" alt="">
-								<div class="team-desc" v-on:click="jms1 = !jms1">
+								<div class="team-desc" v-on:click="jms2 = !jms2">
 									<h4 class="mb-0">Motor Deslizante ( Smart ) </h4>
-									<p class="mb-1">Click aqui para Ver Descrição</p>
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms2"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
 								</div>
 							</div>
 
-							<div v-if="jms1" class="descicao">
+							<div v-if="jms2" class="descicao">
 								<p>
 									<strong>
 										Descrição

@@ -33,39 +33,32 @@
 				<!-- MAIN -->
 				<main id="main" class="col-md-9">
 					<div class="row">
- 
-						<!-- article -->
+
 						<div class="col-md-6">
-							<div class="article">
-								<div class="article-img">
-									<a >
-										<img src="assets/img/diversos/2.jpg" alt="">
-									</a>
-								</div>
-								<div class="article-content">
-									<h3 class="article-title"><a>Samsung Galaxy S9+ </a></h3>
-									<ul class="article-meta">
-							
-										
-									</ul>
-									<p>Pontência levada a sério o <strong>Samsung Galaxy S9+</strong> tem a tela de 6.2'', Dual-Sim e 256 GB de espaço de armazenamento</p>
+							<div class="team-card mb-5">
+								<img class="img-fluid" src="assets/img/diversos/2.jpg" alt="">
+								<div class="team-desc" v-on:click="jms1 = !jms1">
+									<h4 class="mb-0">Samsung Galaxy S9+</h4>
+									 
+									<i class="fa fa-solid fa-chevron-up Icon_kim" v-if="jms1"></i> 
+									<i class="fa fa-solid fa-chevron-down Icon_kim" v-else></i>
+								 
+
 								</div>
 							</div>
-						</div>
-						<!-- /article -->
-					 
 
-						
-						<!-- pagination 
-						<div class="col-md-12">
-							<ul class="article-pagination">
-								<li class="active"><<</li>
-								
-								<li>|</li>
-								<li><a href="#">>></a></li>
-							</ul>
-						</div>
-						<!-- /pagination -->
+							<div v-if="jms1" class="descicao">
+								<p>
+									<strong>
+										Descrição
+									</strong>
+								</p>
+
+								<p>Pontência levada a sério o <strong>Samsung Galaxy S9+</strong> tem a tela de 6.2'', Dual-Sim e 256 GB de espaço de armazenamento</p>
+							</div>
+						</div> 
+					 
+ 
 					</div>
 				</main>
 				<!-- /MAIN -->
