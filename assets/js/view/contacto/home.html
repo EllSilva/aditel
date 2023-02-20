@@ -20,6 +20,7 @@
 		</div>
 	</div>
 
+	 
 
 	
 	<!-- /Page Header -->
@@ -44,42 +45,42 @@
 								</div>
 								<p>Sinta-se livre de entrar em contacto connosco, em qualquer momento, teremos imenso
 									gosto em atende-lo.</p>
-								<form  @submit="enviar" method="post" >
+								<form @submit.prevent="salvarEmail" method="post" >
 									<div class="row">
 										<div class="col-md-4">
 											<div class="form-group">
-												<input class="input"  v-model="nome" required placeholder="Nome" type="text">
+												<input class="input" v-model="nome" required placeholder="Nome" type="text">
 												 
 											</div>
 										</div>
 										<div class="col-md-4">
 											<div class="form-group">
-												<input class="input"  v-model="email" required placeholder="Email" type="email">
+												<input class="input" v-model="email" required placeholder="Email" type="email">
 											</div>
 										</div>
 										<div class="col-md-4">
 											<div class="form-group">
-												<input class="input"  v-model="telef" required placeholder="Telefone" type="number">
+												<input class="input" v-model="telef" required placeholder="Telefone" type="number">
 											</div>
 										</div>
 										<div class="col-md-4">
 											<div class="form-group">
-												<input class="input"  v-model="assunto" required placeholder="Assunto" type="text">
+												<input class="input" v-model="assunto" required placeholder="Assunto" type="text">
 											</div>
 										</div>
 										<div class="col-md-4">
 											<div class="form-group">
-												<input class="input"  v-model="produto" required placeholder="Nome do Produto" type="text">
+												<input class="input" v-model="produto" required placeholder="Nome do Produto" type="text">
 											</div>
 										</div>
 										<div class="col-md-4">
 											<div class="form-group">
-												<input class="input"  v-model="endereco" required placeholder="Endereço" type="text">
+												<input class="input" v-model="endereco" required placeholder="Endereço" type="text">
 											</div>
 										</div>
 										<div class="col-md-12">
 											<div class="form-group">
-												<textarea class="input"  v-model="mensagem" required placeholder="Menssagem"></textarea>
+												<textarea class="input" v-model="mensagem" required placeholder="Menssagem"></textarea>
 											</div>
 											<button class="primary-button">Enviar</button>
 										</div>
