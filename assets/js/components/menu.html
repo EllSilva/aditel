@@ -1,98 +1,104 @@
 <div class="container-fluid bg-light position-relative shadow">
-    <nav class="">
- 
-        	<!-- HEADER -->
-	<header id="">
-		<!-- NAVGATION -->
-		<nav id="main-navbar">
-			<div class="container">
-				<div class="navbar-header">
-					<!-- Logo -->
-					<div class="navbar-brand">
-						<a class="logo" href="index.html"><img src="assets/img/logo1.png" alt="logo"></a>
-					</div>
-					<!-- Logo -->
+	<nav class="">
 
-					<!-- Mobile toggle -->
-					<button class="navbar-toggle-btn" @click="mostrarMenu()">
+		<!-- HEADER -->
+		<header id="">
+			<!-- NAVGATION -->
+			<nav id="main-navbar">
+				<div class="container">
+					<div class="navbar-header">
+						<!-- Logo -->
+						<div class="navbar-brand">
+							<a class="logo" href="index.html"><img src="assets/img/logo1.png" alt="logo"></a>
+						</div>
+						<!-- Logo -->
+
+						<!-- Mobile toggle -->
+						<button class="navbar-toggle-btn" @click="mostrarMenu()">
 							<i class="fa fa-bars"></i>
 						</button>
-					<!-- Mobile toggle -->
+						<!-- Mobile toggle -->
 
-					<!-- Mobile Search toggle -->
-					<button class="search-toggle-btn">
+						<!-- Mobile Search toggle -->
+						<button class="search-toggle-btn">
 							<i class="fa fa-search"></i>
 						</button>
-					<!-- Mobile Search toggle -->
-				</div>
-
-				<!-- Search -->
-				<div class="navbar-search">
-					<button class="search-btn"><i class="fa fa-search"></i></button>
-					<div class="search-form">
-						<form>
-							<input class="input" type="text" name="search" placeholder="Search">
-						</form>
+						<!-- Mobile Search toggle -->
 					</div>
+
+					<!-- Search -->
+					<div class="navbar-search">
+						<button class="search-btn"><i class="fa fa-search"></i></button>
+						<div class="search-form">
+							<form>
+								<input class="input" type="text" name="search" placeholder="Search">
+							</form>
+						</div>
+					</div>
+					<!-- Search -->
+
+					<!-- Nav menu -->
+					<ul class="navbar-menu nav navbar-nav navbar-right" :class="{ navbarMenuActive: isActive }">
+						<!--  <ul class="navbar-menu nav navbar-nav navbar-right navbar-menu-active" >	 -->
+
+						<li> <a href="#/" @click="esconderMenu()">Inicio</a></li>
+						<li><a href="#/sobre" @click="esconderMenu()">Quem Somos</a></li>
+						<li class="has-dropdown " :class="{ dropdownActive: dropActive1 }"><a
+								@click="mostrarDop1()">Produtos</a>
+							<ul class="dropdown ">
+
+								<li class="has-dropdown " :class="{ dropdownActive: dropActive3 }"><a
+										@click="mostrarDop3()">Segurança Patrimonial</a>
+									<ul class="dropdown dropdown_sub">
+										<li class=""><a href="#/gps" @click="esconderMenu()"> <strong>GPS e Alarmes
+												</strong> </a></li>
+										<li><a href="#/cctv" @click="esconderMenu()"> <strong>CCTV</strong></a></li>
+										<li><a href="#/intrusao" @click="esconderMenu()"><strong>Intrusão</strong></a>
+										</li>
+										<li><a href="#/fire" @click="esconderMenu()"> <strong>Incêndios</strong></a>
+										</li>
+										<li><a href="#/automacao" @click="esconderMenu()"> <strong>Automação Residencial
+												</strong></a></li>
+
+									</ul>
+								</li>
+
+								<li class="has-dropdown " :class="{ dropdownActive: dropActive4 }"><a
+										@click="mostrarDop4()">Informática / Multimídia</a>
+									<ul class="dropdown dropdown_sub">
+										<li class=""><a href="#/computador" @click="esconderMenu()">
+												<strong>Computadores</strong> </a></li>
+										<li><a href="#/tv" @click="esconderMenu()"> <strong>TV</strong></a></li>
+										<li><a href="#/telefone" @click="esconderMenu()"><strong>Telefone</strong></a>
+										</li>
+									</ul>
+								</li>
+
+								<li><a href="#/solar" @click="esconderMenu()">Energias</a></li>
+								<li><a href="#/telecomunicacao" @click="esconderMenu()">Telecomunicações</a></li>
+								<li><a href="#/acessorios" @click="esconderMenu()">Acessorios</a></li>
+
+							</ul>
+						</li>
+						<li class="has-dropdown" :class="{ dropdownActive: dropActive2 }"><a @click="mostrarDop2()">Área
+								Cliente</a>
+							<ul class="dropdown">
+								<li><a target="_blank" href="https://satfrotas.net/" @click="esconderMenu()">Plantaforma
+										Profissional (GPS)</a></li>
+								<li><a href="http://aditelsat.net" @click="esconderMenu()">Vídeo Vigilância</a></li>
+								<li><a href="" @click="esconderMenu()"> Outros</a></li>
+							</ul>
+						</li>
+
+						<li><a href="#/contacto" @click="esconderMenu()">Contactos</a></li>
+					</ul>
+					<!-- Nav menu -->
 				</div>
-				<!-- Search -->
+			</nav>
+			<!-- /NAVGATION -->
 
-				<!-- Nav menu -->
-			<ul class="navbar-menu nav navbar-nav navbar-right" :class="{ navbarMenuActive: isActive }">
-					<!--  <ul class="navbar-menu nav navbar-nav navbar-right navbar-menu-active" >	 -->
-					
-					
-					<li> <a href="#/" @click="esconderMenu()">Home</a></li>
-					<li><a href="#/sobre" @click="esconderMenu()">Quem Somos</a></li>
-					<li class="has-dropdown " :class="{ dropdownActive: dropActive1 }"><a @click="mostrarDop1()">Produtos</a>
-						<ul class="dropdown ">
+		</header>
+		<!-- /HEADER -->
 
-							<li class="has-dropdown " :class="{ dropdownActive: dropActive3 }"><a @click="mostrarDop3()">Segurança Patrimonial</a>
-								<ul class="dropdown dropdown_sub">
-									<li class=""><a href="#/gps"  @click="esconderMenu()"> <strong>GPS e Alarmes </strong> </a></li>
-									<li><a href="#/cctv"  @click="esconderMenu()"> <strong>CCTV</strong></a></li>
-									<li ><a href="#/intrusao" @click="esconderMenu()"><strong>Intrusão</strong></a></li>
-									<li><a href="#/fire"  @click="esconderMenu()"> <strong>Incêndios</strong></a></li>
-									<li><a href="#/automacao"  @click="esconderMenu()"> <strong>Automação Residencial  </strong></a></li>
-
-								</ul>
-							</li>
-
-							<li class="has-dropdown " :class="{ dropdownActive: dropActive4 }"><a @click="mostrarDop4()">Informática / Multimídia</a>
-								<ul class="dropdown dropdown_sub">
-									<li class=""><a href="#/computador"  @click="esconderMenu()"> <strong>Computadores</strong> </a></li>
-									<li><a href="#/tv"  @click="esconderMenu()"> <strong>TV</strong></a></li>
-									<li ><a href="#/telefone" @click="esconderMenu()"><strong>Telefone</strong></a></li> 
-								</ul>
-							</li>
-
-							<li><a href="#/solar" @click="esconderMenu()">Energias</a></li>
-							<li><a href="#/telecomunicacao" @click="esconderMenu()">Telecomunicações</a></li>
-							<li><a href="#/acessorios" @click="esconderMenu()">Acessorios</a></li>
-						  
-						</ul>
-					</li>
-					<li class="has-dropdown" :class="{ dropdownActive: dropActive2 }"><a @click="mostrarDop2()">Área Cliente</a>
-						<ul class="dropdown">
-									<li><a target="_blank" href="https://satfrotas.net/" @click="esconderMenu()">Plantaforma Profissional (GPS)</a></li>
-							<li><a href="http://aditelsat.net" @click="esconderMenu()">Vídeo Vigilância</a></li>
-							<li><a href="" @click="esconderMenu()"> Outros</a></li>
-						</ul>
-					</li>
-					
-				<li><a href="#/contacto" @click="esconderMenu()">Contactos</a></li>
-				</ul>
-				<!-- Nav menu -->
-			</div>
-		</nav>
-		<!-- /NAVGATION -->
-
-	
-	</header>
-	<!-- /HEADER -->
-
-
-    </nav>
+	</nav>
 </div>
-
- 

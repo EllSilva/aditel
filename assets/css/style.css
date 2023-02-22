@@ -367,6 +367,11 @@ textarea.input {
 
 .section {
   position: relative;
+  padding: 60px 0px 0px 0px;
+}
+
+.section_jms {
+  position: relative;
   padding: 60px 0px;
 }
 
