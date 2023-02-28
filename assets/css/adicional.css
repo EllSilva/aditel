@@ -139,6 +139,73 @@ z-index: 1000;
 }
  
   
+ span.sticker {
+  background: #0363cd;
+  border-radius: 100%;
+  color: #fff;
+  right: 15px;
+  position: absolute;
+  top: 40px;
+  z-index: 99;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+
+
+
+
+ /*============================
+=            Stilos nos Produtos            =
+============================*/
+.team-card2 {
+  position: relative;
+  
+}
+
+.team-card2:hover .team-desc2 {
+  height: 950px;
+  
+}
+
+.team-card2:hover .team-desc2 .team-social-links {
+  opacity: 1;
+}
+
+.team-desc2 {
+  
+  width: auto;
+  left: 15px;
+  bottom: 1px;
+  right: 15px;
+
+  text-align: center;
+  padding: 15px;
+  height: 260px;
+  overflow: hidden;
+  transition: all .3s ease-in-out;
+
+  background-color: #f1af01;
+
+
+}
+
+.team-social-links {
+  opacity: 0;
+  transition: all .3s ease-in-out;
+}
+
+/*=====  End of TEAM  ======*/
+/*===================================
+=    
+
+
+
+  
  /*============================
 =            Stilos nos Produtos            =
 ============================*/

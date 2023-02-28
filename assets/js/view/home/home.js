@@ -19,8 +19,15 @@ export default {
       gap: 20
     }).mount();
 
-    
     new Glide('.destague_glide', {
+      type: 'carousel',
+      autoplay: 3500,
+      perView: this.tamanho,
+      gap: 20
+    }).mount();
+
+    
+    new Glide('.destague_glide2', {
       type: 'carousel',
       autoplay: 3500,
       perView: this.tamanho,

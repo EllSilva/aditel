@@ -10,6 +10,7 @@ export default {
             contactoActive: false,
             blogActive: false,
             type: true,
+            anoAtual: null,
 
             mobileView: true,
             showTrue: false,
@@ -53,7 +54,9 @@ export default {
     },
 
     mounted() {
-
+        const dataAtual = new Date();
+        this.anoAtual = dataAtual.getFullYear();
+      
     },
 
     template: await get_template('./assets/js/components/footer')
