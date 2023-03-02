@@ -133,7 +133,9 @@ z-index: 1000;
 .fa-whatsapp{
   margin-top: 16px;
 }
- 
+.fespaco_xs{
+  margin-top: 16px;
+}
 .espaco_cima{
   margin-top: 116px;
 }
@@ -168,8 +170,8 @@ z-index: 1000;
 }
 
 .team-card2:hover .team-desc2 {
-  height: 950px;
-  
+  height: 950px; 
+  color: #fff;
 }
 
 .team-card2:hover .team-desc2 .team-social-links {
